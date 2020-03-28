@@ -48,9 +48,9 @@ collections:
           - { label: Heading, name: heading, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: "Mission Heading", name: mission_header, widget: string }
-          - { label: "Mission Content", name: mission, widget: text }
+          - { label: "Mission Content", name: mission, widget: markdown }
           - { label: "Join Us Heading", name: join_us_header, widget: string }
-          - { label: "Join Us Pitch", name: join_us_pitch, widget: text }
+          - { label: "Join Us Pitch", name: join_us_pitch, widget: markdown }
           - {
               label: "Join Us Button Label",
               name: join_us_button,

@@ -95,6 +95,7 @@ export const IndexPageTemplate = ({
                         btn-action
                         has-text-weight-bold
                         `}
+                  href="."
                 >
                   {join_us_button}
                 </a>
