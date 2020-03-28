@@ -1,25 +1,35 @@
 ---
-templateKey: "about-page"
+templateKey: about-page
 path: /about
-title: About our values
+title: About us
 ---
+**COVID-19 #CareZA** is a project of the **[Centre for Analytics and Behavioural Change (CABC)](https://www.cabc.org.za/)**. The CABC is a non-profit organisation that was formed in 2017 to act in the public interest.
 
-### Shade-grown coffee
+Our innovation is in our collaboration. By combining our collective skills, knowledge and experience we aim to effect positive behavioural change, whether for social upliftment or environmental benefit, or both. Right now, our main areas of focus are social cohesion (e.g. racism, xenophobia, homophobia, gender-based violence), narrative manipulation, sustainability, climate change and public health (HIV/AIDS/Covid-19 and other communicable diseases).
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+The CABC is incubated at the Graduate School of Business (GSB) at the University of Cape Town (UCT). The team is drawn from various organisations including the GSB, the Alan Gray Centre for Values Based Leadership, the Citizen Research and Dialogue Centres and the Cape Peninsula University of Technology. Our team covers a wide range of skills, including academia, technology, research analytics, dialogue facilitation, conflict mediation, communication, and advertising.
 
-### Single origin
+We have established an intern programme which includes PHD candidates and MBA graduates who work on our projects, helping with data analysis, research and insights.
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### **Our values**
 
-### Sustainable farming
+**Integrity**\
+We are guided by our ethics and a commitment to do no harm. We are not driven by profit or power. We are faithful to our values and will always do our best to act in the public interest. We work with donors, clients, partners and suppliers who align with our values.
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+**Compassionate Respect**\
+We respect each other and our diversity of opinions, even if we may disagree. Treating others with compassion and respect requires vulnerability and authenticity, but is essential in all engagement which seeks trust and understanding. We respect the inherent dignity of all people.
 
-### Direct sourcing
+**Transparency**\
+We are open and transparent about our work, and we consider transparency to be the cornerstone of integrity and accountability. All our work, and all the products of our work are open source and available for free use. We respect and protect personal privacy and only work with information that is in the public domain.
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+**Humility**\
+Our work explores topics which are emotionally loaded and culturally sensitive, involving the lived experiences of millions of individual humans. We are all human. Because of this, we acknowledge that we will make mistakes. When we do, we will apologise, we will listen to those who were affected, and we will learn through self reflection, to ensure we do better.
 
-### Reinvest profits
+**Collaboration**\
+The success of our work depends on partnerships and collaboration with those who share our values. Through collaboration we learn, share expertise and grow together. We find strength in the sum of our knowledge, practices and diverse experiences.
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+**Equality**\
+We are guided by the South African Constitution, fact-based evidence and the rule of law. We aspire to an egalitarian society where all are equally respected and accepted.We acknowledge the urgent need to address – bravely and humbly – all forms of historical and societal oppression and discrimination, in order to be effective participants in the quest for fairness and equality.
+
+**Sustainability**\
+We commit to work towards environmental, resource-based, social and economic sustainability.
