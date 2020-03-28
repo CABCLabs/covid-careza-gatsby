@@ -1,70 +1,19 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+heading: Arm South Africa with the facts and help fight COVID-19
+image: /img/hero-desktop.png
+mission_header: COVID IS COMING FOR US
+mission: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in lobortis justo, vel luctus ex. Praesent lectus turpis, maximus eget elementum sollicitudin, dapibus et elit. Nam eget elit mauris. Donec congue diam pulvinar augue feugiat, sit amet egestas est pulvinar. Cras eleifend sollicitudin enim in rutrum. Vestibulum elit eros, pharetra non aliquet vel, mollis non sapien.  Praesent ut diam nec ligula ultrices fermentum. 
+
+  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacus mi, consequat sed tortor vitae, porta pellentesque augue. Aliquam erat risus, suscipit et convallis varius, iaculis sed velit. Praesent congue eros a imperdiet faucibus. Sed pretium ultricies tortor in gravida.
+join_us_header: WE NEED TO WORK TOGETHER
+join_us_pitch: |
+  Proin varius arcu eu lobortis congue. Sed dignissim lorem nec eleifend scelerisque. Proin augue turpis, sollicitudin et tellus a, venenatis fringilla turpis. Nulla rutrum sapien ut tortor rutrum pretium. Proin condimentum lacus ac condimentum fringilla. Phasellus rhoncus consequat elit ullamcorper posuere. Phasellus sit amet dui et mauris vulputate congue eu ac libero. Sed a gravida libero, in tincidunt risus. Nulla eu metus sit amet nunc iaculis facilisis in dictum dui. Maecenas congue rutrum congue. In volutpat a neque ut luctus.
+
+  **STRONG**
+
+  Nam lacinia orci metus, faucibus suscipit nisi elementum in. In malesuada placerat nunc, et porta ante sodales ac. Sed tincidunt lobortis mauris, quis mattis enim blandit ac. Praesent consequat neque sit amet metus dignissim, elementum ornare justo luctus. Integer orci orci, dapibus ut odio id, cursus tincidunt nisi. Mauris rutrum lectus sodales finibus tincidunt. Suspendisse facilisis volutpat felis et consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer odio justo, commodo at convallis et, congue sed ligula.
+join_us_button: JOIN US
+join_us_button_subtext: Keep South Africa Safe and Smart
 ---

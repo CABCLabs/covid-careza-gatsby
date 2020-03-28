@@ -1,0 +1,18 @@
+.index-page .container {
+  padding: 0rem 0.5rem;
+}
+
+section {
+  padding: 1rem 0rem;
+}
+
+.btn-action {
+  background: linear-gradient(to top, #fecc16 0%, #fecc16 100%);
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 5rem;
+  &:hover {
+    color: white;
+  }
+}

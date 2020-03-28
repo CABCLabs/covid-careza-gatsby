@@ -1,110 +1,111 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import "./index-page.scss";
+import Layout from "../components/Layout";
+import ReactMarkdown from "react-markdown";
 
 export const IndexPageTemplate = ({
   image,
-  title,
   heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
+  mission_header,
+  mission,
+  join_us_header,
+  join_us_pitch,
+  join_us_button,
+  join_us_button_subtext
 }) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+  <div className="index-page">
+    <div className="container">
+      <div className="columns">
+        <div className="column">
+          <div
+            style={{
+              backgroundImage: `url(${
+                !!image.childImageSharp
+                  ? image.childImageSharp.fluid.src
+                  : image
+              })`,
+              backgroundPosition: `center center`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              minHeight: "500px",
+              maxHeight: "1vw"
+            }}
+          ></div>
+        </div>
+
+        <div className="column is-8">
+          <h1
+            className={`is-size-3-mobile 
+                        is-size-2-tablet 
+                        is-size-1-widescreen`}
+            style={{
+              lineHeight: "1",
+              height: "100%",
+              display: "flex",
+              alignItems: "center"
+            }}
+          >
+            {heading}
+          </h1>
+        </div>
       </div>
     </div>
-    <section className="section section--gradient">
+
+    <section className="has-background-light">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
+        <h2
+          className={`
+                 is-size-5-mobile 
+                 is-size-4-tablet 
+                 is-size-3-widescreen`}
+        >
+          {mission_header}
+        </h2>
+        <div>
+          <ReactMarkdown source={mission} />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div className="container">
+        <h2
+          id="joinus"
+          className={` 
+                 is-size-5-mobile 
+                 is-size-4-tablet 
+                 is-size-3-widescreen`}
+        >
+          {join_us_header}
+        </h2>
+        <div className="columns">
+          <div className="column">
+            <ReactMarkdown source={join_us_pitch} />
+          </div>
+          <div
+            className="column is-flex"
+            style={{ alignItems: "center", justifyContent: "center" }}
+          >
+            <div>
+              <div>
+                <a
+                  className={`
+                        btn-action
+                        has-text-weight-bold
+                        `}
+                >
+                  {join_us_button}
+                </a>
+              </div>
+              <div
+                className="has-text-centered has-text-weight-bold is-uppercase"
+                style={{
+                  paddingTop: "1rem"
+                }}
+              >
+                {join_us_button_subtext}
               </div>
             </div>
           </div>
@@ -112,53 +113,38 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+  heading: PropTypes.string
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
+      <IndexPageTemplate {...frontmatter} />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
+        heading
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -166,28 +152,16 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
+
+        mission_header
+        mission
+
+        join_us_header
+        join_us_pitch
+
+        join_us_button
+        join_us_button_subtext
       }
     }
   }
-`
+`;
