@@ -14,21 +14,18 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/#joinus">
-                        Join us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
+                    {[
+                      { label: "Home", link: "/" },
+                      { label: "Join us", link: "/#joinus" },
+                      { label: "About", link: "/about" },
+                      { label: "Contact", link: "/contact" }
+                    ].map(({ label, link }) => (
+                      <li>
+                        <Link to={link} className="navbar-item">
+                          {label}
+                        </Link>
+                      </li>
+                    ))}
                     <li>
                       <a
                         className="navbar-item"
@@ -42,48 +39,45 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
+
               <div className="column is-4">
-                <section>
+                <section className="menu social">
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
+                      <a
+                        className="navbar-item"
+                        title="facebook"
+                        href="https://facebook.com"
+                      >
+                        <span>
+                          <img src={facebook} alt="Facebook" />
+                        </span>{" "}
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        title="twitter"
+                        href="https://twitter.com"
+                      >
+                        <span>
+                          <img
+                            className="fas fa-lg"
+                            src={twitter}
+                            alt="Twitter"
+                          />
+                        </span>{" "}
+                        Twitter
+                      </a>
                     </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                {/* <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a> */}
-              </div>
+            </div>
+            <div class="copyright">
+              copyright © {new Date().getFullYear()} The Center for Analytics
+              and Behavioural Change
             </div>
           </div>
         </div>

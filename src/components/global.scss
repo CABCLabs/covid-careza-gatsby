@@ -8,6 +8,7 @@ $primary: $careza-red;
 $primary-invert: $careza-red-invert;
 $body-color: #333;
 $black: #2b2523;
+$body-background-color: $black;
 
 $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
   "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -65,6 +66,10 @@ h4 {
   }
 }
 
+.layout-content {
+  background: white;
+}
+
 //Menu overrides
 $menu-item-color: $white-ter;
 $menu-item-hover-color: $black !important;
@@ -82,19 +87,18 @@ $menu-label-color: $white-ter;
   list-style: none !important;
   text-align: left;
 }
-.social {
-  padding: 2em;
-}
 
-.social a {
+.social a span {
   padding: 0.5em 0.5em 0.3em 0.5em;
   border-radius: 1em;
   background-color: $white-ter;
   margin: 0.5em;
-  width: 1em;
-  height: 1em;
   vertical-align: middle;
   display: inline;
+  img {
+    width: 1em;
+    height: 1em;
+  }
 }
 
 // blog roll
