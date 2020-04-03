@@ -15,7 +15,7 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     {[
-                      { label: "Home", link: "/" },
+                      { label: "Home", link: "/covid/" },
                       { label: "Join us", link: "/covid/pledge" },
                       { label: "About", link: "/about" },
                       { label: "Contact", link: "/contact" }
