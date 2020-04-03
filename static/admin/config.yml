@@ -15,56 +15,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "blog-post",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
-
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "index-page",
-            }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: "Mission Heading", name: mission_header, widget: string }
-          - { label: "Mission Content", name: mission, widget: markdown }
-          - { label: "Join Us Heading", name: join_us_header, widget: string }
-          - { label: "Join Us Pitch", name: join_us_pitch, widget: markdown }
-          - {
-              label: "Join Us Button Label",
-              name: join_us_button,
-              widget: string,
-            }
-          - {
-              label: "Join Us Button Subtext",
-              name: join_us_button_subtext,
-              widget: string,
-            }
-
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
@@ -165,3 +118,23 @@ collections:
             }
           - { label: Image, name: image, widget: image }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
+      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
