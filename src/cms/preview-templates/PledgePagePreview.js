@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { SimplePageTemplate } from "../../templates/simple-page";
+import { PledgePageTemplate } from "../../templates/pledge-page";
 import "../../components/global.scss";
 
-const SimplePagePreview = ({ entry, widgetFor }) => (
-  <SimplePageTemplate
+const PledgePagePreview = ({ entry, widgetFor }) => (
+  <PledgePageTemplate
     title={entry.getIn(["data", "title"])}
     subtitle={entry.getIn(["data", "subtitle"])}
     image={entry.getIn(["data", "image"])}
@@ -12,11 +12,11 @@ const SimplePagePreview = ({ entry, widgetFor }) => (
   />
 );
 
-SimplePagePreview.propTypes = {
+PledgePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 };
 
-export default SimplePagePreview;
+export default PledgePagePreview;

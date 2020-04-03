@@ -60,7 +60,7 @@ collections:
 
       - file: "src/pages/covid/index.md"
         label: "Covid-19 Landing Page"
-        name: "landing-page"
+        name: "covid-landing"
         fields:
           - {
               label: "Template Key",
@@ -87,7 +87,7 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "pledge-page",
+              default: "covid-pledge",
             }
           - { label: "Title", name: "title", widget: "string" }
           - {
@@ -101,7 +101,7 @@ collections:
 
       - file: "src/pages/covid/thanks.md"
         label: "Covid-19 Thank You"
-        name: "simple-page"
+        name: "covid-thanks"
         fields:
           - {
               label: "Template Key",

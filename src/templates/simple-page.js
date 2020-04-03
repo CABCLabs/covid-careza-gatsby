@@ -10,7 +10,7 @@ export const SimplePageTemplate = ({
   subtitle,
   image,
   content,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -35,7 +35,7 @@ SimplePageTemplate.propTypes = {
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
 const SimplePage = ({ data }) => {
@@ -55,7 +55,7 @@ const SimplePage = ({ data }) => {
 };
 
 SimplePage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default SimplePage;
