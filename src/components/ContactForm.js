@@ -70,7 +70,7 @@ const ContactFrom = ({ action }) => {
         <select
           name="contactMethod"
           value={contactMethod}
-          onBlur={evt => setContactMethod(evt.target.value)}
+          onChange={evt => setContactMethod(evt.target.value)}
         >
           {contactMethods.map(({ value, label }) => (
             <option value={value}>{label}</option>
