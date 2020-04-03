@@ -34,7 +34,7 @@ export const LandingPageTemplate = ({
               <div
                 className="introduction-content 
                   is-size-6-mobile 
-                  is-size-6-tablet 
+                  is-size-5-tablet 
                   is-size-5-widescreen"
               >
                 <ReactMarkdown source={introduction} />
