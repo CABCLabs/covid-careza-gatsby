@@ -16,11 +16,11 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     {[
                       { label: "Home", link: "/" },
-                      { label: "Join us", link: "/#joinus" },
+                      { label: "Join us", link: "/covid/pledge" },
                       { label: "About", link: "/about" },
                       { label: "Contact", link: "/contact" }
                     ].map(({ label, link }) => (
-                      <li>
+                      <li key={label}>
                         <Link to={link} className="navbar-item">
                           {label}
                         </Link>
@@ -75,7 +75,7 @@ const Footer = class extends React.Component {
                 </section>
               </div>
             </div>
-            <div class="copyright">
+            <div className="copyright">
               copyright © {new Date().getFullYear()} The Center for Analytics
               and Behavioural Change
             </div>

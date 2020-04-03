@@ -44,22 +44,26 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="#careZA" style={{ width: "88px" }} />
             </Link>
             {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+            {
+              // eslint-disable-next-line
+              <div
+                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                onClick={() => this.toggleHamburger()}
+              >
+                <span />
+                <span />
+                <span />
+              </div>
+            }
           </div>
+
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/#joinus">
+              <Link className="navbar-item" to="/covid/pledge">
                 Join us
               </Link>
 

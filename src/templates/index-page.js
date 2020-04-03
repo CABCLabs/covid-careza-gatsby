@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import "./index-page.scss";
-import Layout from "../components/Layout";
 import ReactMarkdown from "react-markdown";
+
+import Layout from "../components/Layout";
+import ContactForm from "../components/ContactForm.js";
+import "./index-page.scss";
 
 export const IndexPageTemplate = ({
   image,
@@ -11,47 +13,10 @@ export const IndexPageTemplate = ({
   mission_header,
   mission,
   join_us_header,
-  join_us_pitch,
-  join_us_button,
-  join_us_button_subtext
+  join_us_pitch
 }) => (
   <div className="index-page">
-    <div className="container">
-      <div className="columns">
-        <div className="column">
-          <div
-            style={{
-              backgroundImage: `url(${
-                !!image.childImageSharp
-                  ? image.childImageSharp.fluid.src
-                  : image
-              })`,
-              backgroundPosition: `center center`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              minHeight: "500px",
-              maxHeight: "1vw"
-            }}
-          ></div>
-        </div>
-
-        <div className="column is-8">
-          <h1
-            className={`is-size-3-mobile 
-                        is-size-2-tablet 
-                        is-size-1-widescreen`}
-            style={{
-              lineHeight: "1",
-              height: "100%",
-              display: "flex",
-              alignItems: "center"
-            }}
-          >
-            {heading}
-          </h1>
-        </div>
-      </div>
-    </div>
+    <div className="container"></div>
 
     <section className="has-background-light">
       <div className="container">
@@ -90,23 +55,7 @@ export const IndexPageTemplate = ({
           >
             <div>
               <div>
-                <a
-                  className={`
-                        btn-action
-                        has-text-weight-bold
-                        `}
-                  href="."
-                >
-                  {join_us_button}
-                </a>
-              </div>
-              <div
-                className="has-text-centered has-text-weight-bold is-uppercase"
-                style={{
-                  paddingTop: "1rem"
-                }}
-              >
-                {join_us_button_subtext}
+                <ContactForm />
               </div>
             </div>
           </div>

@@ -8,6 +8,9 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 
+# when using the default proxy server port
+local_backend: true
+
 media_folder: static/img
 public_folder: /img
 
@@ -70,10 +73,17 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "about-page",
+              default: "simple-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
 
       - file: "src/pages/contact/index.md"
         label: "Contact"
@@ -83,7 +93,75 @@ collections:
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "about-page",
+              default: "simple-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      - file: "src/pages/covid/index.md"
+        label: "Covid-19 Landing Page"
+        name: "landing-page"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "landing-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Introduction", name: "introduction", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      - file: "src/pages/covid/pledge.md"
+        label: "Covid-19 Pledge"
+        name: "covid-pledge"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "pledge-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+      - file: "src/pages/covid/thanks.md"
+        label: "Covid-19 Thank You"
+        name: "simple-page"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "simple-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }

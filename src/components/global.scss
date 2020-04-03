@@ -1,11 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables";
 
 // Config vars
-$careza-red: #d64000;
-$careza-red-invert: #fff;
-
-$primary: $careza-red;
-$primary-invert: $careza-red-invert;
 $body-color: #333;
 $black: #2b2523;
 $body-background-color: white;
@@ -51,7 +46,6 @@ h4 {
 }
 
 .navbar-item .icon {
-  color: $primary; // Override for use of svg's from https://simpleicons.org/
   .icon svg {
     width: 1.5rem;
     height: 1.5rem;
@@ -74,9 +68,9 @@ h4 {
 $menu-item-color: $white-ter;
 $menu-item-hover-color: $black !important;
 $menu-item-hover-background-color: $black;
-$menu-item-active-color: $careza-red-invert;
-$menu-item-active-background-color: $careza-red-invert;
-$menu-list-border-left: 1px solid $careza-red-invert;
+$menu-item-active-color: white;
+$menu-item-active-background-color: white;
+$menu-list-border-left: 1px solid white;
 $menu-label-color: $white-ter;
 
 .menu-label {
@@ -115,6 +109,35 @@ $menu-label-color: $white-ter;
 }
 
 @import "~bulma";
+
+.header {
+  .header-image {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @include until($tablet) {
+      min-height: 100vw;
+    }
+    @include from($tablet) {
+      min-height: 300px;
+    }
+  }
+
+  h1 {
+    @include until($tablet) {
+      text-align: center;
+    }
+  }
+
+  h2 {
+    color: $grey-light;
+    @include until($tablet) {
+      text-align: center;
+    }
+    padding: 2rem 0rem;
+  }
+}
 
 /* This needs to be translated from SASS dialect
 

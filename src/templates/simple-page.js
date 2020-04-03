@@ -2,20 +2,25 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
 
-export const ContactPageTemplate = ({ title, content, contentComponent }) => {
+export const SimplePageTemplate = ({
+  title,
+  subtitle,
+  image,
+  content,
+  contentComponent
+}) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
       <div className="container">
+        <Header title={title} image={image} subtitle={subtitle} />
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+          <div className="column is-8">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -25,38 +30,50 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
   );
 };
 
-ContactPageTemplate.propTypes = {
+SimplePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
 
-const ContactPage = ({ data }) => {
+const SimplePage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <ContactPageTemplate
+      <SimplePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        subtitle={post.frontmatter.subtitle}
+        image={post.frontmatter.image}
         content={post.html}
       />
     </Layout>
   );
 };
 
-ContactPage.propTypes = {
+SimplePage.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default ContactPage;
+export default SimplePage;
 
-export const contactPageQuery = graphql`
-  query ContactPage($id: String!) {
+export const simplePageQuery = graphql`
+  query SimplePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         title
+        subtitle
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
