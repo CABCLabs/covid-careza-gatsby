@@ -50,28 +50,33 @@ const ContactFrom = ({ action }) => {
 
   return (
     <form
-      name="contact"
+      name="sm-pledge"
       method="POST"
       data-netlify="true"
+      data-netlify-honeypot="bot-field"
       action={action || "thanks"}
       className={`contact-form 
                   is-size-5-mobile 
                   is-size-4-tablet 
                   is-size-4-widescreen`}
     >
+      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="sm-pledge" />
+      <input type="hidden" name="campaign" value="covid" />
       <div>
-        <label>How would you like us to contact you?</label>
+        <label htmlFor="contactMethod">
+          How would you like us to contact you?
+        </label>
         <select
           name="contactMethod"
           value={contactMethod}
-          onChange={evt => setContactMethod(evt.target.value)}
+          onBlur={evt => setContactMethod(evt.target.value)}
         >
           {contactMethods.map(({ value, label }) => (
             <option value={value}>{label}</option>
           ))}
         </select>
       </div>
-
       <div>
         <label>{contactMethodMap[contactMethod].message}</label>
         <input
