@@ -2,7 +2,7 @@
 templateKey: simple-page
 path: /about
 title: About us
-image: /img/black-logo-transparent.png
+image: /img/careza-fc.png
 ---
 
 CareZA is a non-partisan, public service platform for concerned citizens who care about serious issues affecting our society and want to DO something positive to help.
