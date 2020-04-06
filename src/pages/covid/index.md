@@ -5,7 +5,7 @@ subtitle: >-
   We know that you care about your fellow citizens, and that you also care about
   serious issues affecting our society. Lead the way during this challenging
   time.
-image: /img/hero-desktop.png
+image: /img/black-logo-transparent.png
 introduction: >-
   **Take action** and leave your social media handle and we will send you
   positive and constructive messages that will help South Africans work together
