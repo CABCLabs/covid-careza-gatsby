@@ -1,7 +1,7 @@
 ---
 templateKey: pledge-page
 title: Citizen's Pledge
-image: /img/hero-desktop.png
+image: /img/black-logo-transparent.png
 ---
 I Pledge to Wise up and Rise up to fake news and hate speech
 
