@@ -2,7 +2,7 @@
 templateKey: simple-page
 path: /contact
 title: Contact Us
-image: /img/careza-fc.png
+image: /img/whats-app-profile.png
 ---
 
 ### Interested in joining?
