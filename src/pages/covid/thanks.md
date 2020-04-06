@@ -4,6 +4,6 @@ title: Thank you
 subtitle: >-
   Thank you Citizen Activist for helping #StopTheSpread of Corona, fake news and
   hate speech. 
-image: /img/black-logo-transparent.png
+image: /img/careza-fc.png
 ---
 We will send you an interesting and positive piece of information soon!
