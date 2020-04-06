@@ -2,7 +2,7 @@
 templateKey: simple-page
 path: /contact
 title: Contact Us
-image: /img/hero-desktop.png
+image: /img/black-logo-transparent.png
 ---
 
 ### Interested in joining?
