@@ -1,7 +1,7 @@
 ---
 templateKey: pledge-page
 title: Citizen's Pledge
-image: /img/whats-app-profile.png
+image: /img/careza-fc.png
 ---
 I Pledge to Wise up and Rise up to fake news and hate speech
 
