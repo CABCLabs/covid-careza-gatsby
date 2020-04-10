@@ -1,6 +1,6 @@
 ---
 templateKey: simple-page
-title: Index
+title: Welcome to #CareZA
 image: /img/whats-app-profile.png
 ---
 
