@@ -20,7 +20,7 @@ export const ContactPageTemplate = ({
       {/* <Header title={title} image={image} subtitle={subtitle} /> */}
       <div className="columns">
       <div className="column is-4 hideMob">
-      <img src="/img/about.jpg"/>
+      <img src="/img/contact.jpg"/>
       </div>
         <div className="column is-6">
           <div className="section">
@@ -30,7 +30,7 @@ export const ContactPageTemplate = ({
           </div>
         </div>
         <div className="column is-4 hideDesk">
-      <img src="/img/about.jpg"/>
+      <img src="/img/contact.jpg"/>
       </div>
       </div>
     </div>

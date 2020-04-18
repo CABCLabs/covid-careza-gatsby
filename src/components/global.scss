@@ -170,6 +170,84 @@ p {
 .hideDesk {
   display: none;
 }
+
+.joinButton { 
+  font-size: 2rem;
+  padding: 15px 25px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #4dad33;
+  margin-top: 20px;
+  clear: both;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  border: 3px solid #4dad33;
+
+}
+.joinButton:hover { 
+  
+  font-size: 2rem;
+  padding: 15px 25px;
+  background-color: #4dad33;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+  clear: both;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  border: 3px solid transparent;
+}
+
+.footer { 
+  padding: 0px;
+}
+.has-background-black {
+  background-color: #4dad33!important;
+}
+.social a {
+  padding: .5em .5em .3em;
+  border-radius: 1em;
+  background-color: #f5f5f5;
+  margin: .5em;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  display: inline;
+}
+.social a img {
+  -webkit-filter: invert(25%);
+  filter: invert(25%);
+}
+.footerContact a {
+  color: #fff!important;
+  font-weight: 400!important;
+  font-size: 1.1em!important;
+  background-color: transparent;
+}
+.footerTextLink { 
+  color: #333;
+
+}
+.post-meta  a { 
+  color: #000!important;
+  text-decoration: none!important;
+  font-weight: 500!important;
+}
+.post-meta  a:hover { 
+  color: #4dad33!important;
+  text-decoration: none!important;
+  font-weight: 500!important;
+}
+.notification { 
+  background-color: #fff;
+}
+.notification:hover { 
+  color: #4dad33;
+}
 @media screen and (max-width: 1023px) {
   .hideMob { 
     display: none;
@@ -177,6 +255,16 @@ p {
   .hideDesk {
     display: initial;
   }
+  .footerContact a {
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 1.1em !important;
+    background-color: transparent;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
 }
 @media screen and (min-width: 1024px) {
 .navbar-start {
@@ -252,81 +340,4 @@ p {
   background-image: url('https://images.unsplash.com/photo-1587126251415-7288f718d731?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
   background-size: cover;
 }
-}
-.joinButton { 
-  font-size: 2rem;
-  padding: 15px 25px;
-  background-color: transparent;
-  border-radius: 5px;
-  color: #4dad33;
-  margin-top: 20px;
-  clear: both;
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 500;
-  border: 3px solid #4dad33;
-
-}
-.joinButton:hover { 
-  
-  font-size: 2rem;
-  padding: 15px 25px;
-  background-color: #4dad33;
-  border-radius: 5px;
-  color: #fff;
-  margin-top: 20px;
-  clear: both;
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 500;
-  border: 3px solid transparent;
-}
-
-.footer { 
-  padding: 0px;
-}
-.has-background-black {
-  background-color: #ffcc03!important;
-}
-.social a {
-  padding: .5em .5em .3em;
-  border-radius: 1em;
-  background-color: #f5f5f5;
-  margin: .5em;
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  display: inline;
-}
-.social a img {
-  -webkit-filter: invert(25%);
-  filter: invert(25%);
-}
-.footerContact a {
-  color: #fff!important;
-  font-weight: 400!important;
-  font-size: 1.1em!important;
-  background-color: transparent;
-}
-.footerTextLink { 
-  color: #333;
-
-}
-.post-meta  a { 
-  color: #000!important;
-  text-decoration: none!important;
-  font-weight: 500!important;
-}
-.post-meta  a:hover { 
-  color: #4dad33!important;
-  text-decoration: none!important;
-  font-weight: 500!important;
-}
-.notification { 
-  background-color: #fff;
-}
-.notification:hover { 
-  color: #4dad33;
 }

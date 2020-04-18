@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
         <h1 style={{ marginTop: '40px', marginBottom: '15px', fontSize: `3rem`, fontWeight: '500', textAlign: 'center' }}>Latest News</h1>
           <div className="container">
             <div className="content">
-            <h2 style={{ marginTop: '0px', marginBottom: '40px', fontSize: `1.4rem`, fontWeight: '500', textAlign: 'center' }}>NO to fake news
+            <h2 style={{ marginTop: '0px', marginBottom: '40px', fontSize: `1.4rem`, fontWeight: '800', textAlign: 'center' }}>NO to fake news
 NO to hate speech.<br/>
 KNOW your facts.<br/>
 CareZA provides information to kickstart conversations!<br/>
