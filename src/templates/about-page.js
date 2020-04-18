@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
 
-export const SimplePageTemplate = ({
+export const AboutPageTemplate = ({
   title,
   subtitle,
   image,
@@ -16,24 +16,29 @@ export const SimplePageTemplate = ({
 
   return (
     <section className="section section--gradient">
-      <div className="container">
-        {/* <Header title={title} image={image} subtitle={subtitle} /> */}
-        <div className="columns">
-        <div className="column is-4">
-        <img src="/img/black-logo-transparent.png"/>
-        </div>
-          <div className="column is-6">
-            <div className="section">
-              <PageContent className="content" content={content} />
-            </div>
+    <div className="container">
+      {/* <Header title={title} image={image} subtitle={subtitle} /> */}
+      <div className="columns">
+      <div className="column is-4 hideMob">
+      <img src="/img/about.jpg"/>
+      </div>
+        <div className="column is-6">
+          <div className="section">
+          <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
+            <PageContent className="content" content={content} />
+            <img src="/img/whats-app-profile.png" width='450'/>
           </div>
         </div>
+        <div className="column is-4 hideDesk">
+      <img src="/img/about.jpg"/>
       </div>
-    </section>
+      </div>
+    </div>
+  </section>
   );
 };
 
-SimplePageTemplate.propTypes = {
+AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -41,12 +46,12 @@ SimplePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const SimplePage = ({ data }) => {
+const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <SimplePageTemplate
+      <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
@@ -57,14 +62,14 @@ const SimplePage = ({ data }) => {
   );
 };
 
-SimplePage.propTypes = {
+AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default SimplePage;
+export default AboutPage;
 
-export const simplePageQuery = graphql`
-  query SimplePage($id: String!) {
+export const aboutPageQuery = graphql`
+  query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

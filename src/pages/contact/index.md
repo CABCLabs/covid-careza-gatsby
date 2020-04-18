@@ -1,14 +1,10 @@
 ---
-templateKey: simple-page
+templateKey: contact-page
 path: /contact
 title: Contact Us
 image: /img/careza-fc.png
 ---
 
-### Interested in joining?
+We want to hear from you! So if you’ve got any questions, suggestions or just want to reach out, give us a shout.
 
-If you are interested in joining, or would like us to contact you with more information about potentially joining please fill in our [application form](/covid/pledge).
-
-### Want more information?
-
-If you want more information about the **COVID-19 #careZa** project, whether for press reasons, partnerships or otherwise please email us at [info@cabc.org.za](mail:info@cabc.org.za).
+### [info@cabc.org.za](mail:info@cabc.org.za).

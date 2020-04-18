@@ -1,7 +1,9 @@
 ---
-templateKey: simple-page
-title: Welcome to #CareZA
+templateKey: home-page
+title: Welcome Citizen Activist
 image: /img/whats-app-profile.png
 ---
+## Welcome Citizen Activist
+### If fake news and hate speech is getting you down, then you’ve come to the right place.
 
-CareZA is a non-partisan, public service platform for concerned citizens who care about serious issues affecting our society and want to DO something positive to help.
+Join the CareZA community and help stop the spread of misinformation and hatred on social media. 

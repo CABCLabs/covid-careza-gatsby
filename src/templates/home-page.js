@@ -3,9 +3,10 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import { Link } from "gatsby";
 import Content, { HTMLContent } from "../components/Content";
 
-export const SimplePageTemplate = ({
+export const HomePageTemplate = ({
   title,
   subtitle,
   image,
@@ -19,21 +20,28 @@ export const SimplePageTemplate = ({
       <div className="container">
         {/* <Header title={title} image={image} subtitle={subtitle} /> */}
         <div className="columns">
-        <div className="column is-4">
-        <img src="/img/black-logo-transparent.png"/>
+        <div className="column is-4 hideMob">
+        <img src="/img/home.jpg"/>
         </div>
           <div className="column is-6">
             <div className="section">
               <PageContent className="content" content={content} />
+              <Link className="joinButton" to="/covid/pledge/">
+                Join Us
+              </Link>
+              <img src="/img/whats-app-profile.png" width='450'/>
             </div>
           </div>
+          <div className="column is-4 hideDesk">
+        <img src="/img/home.jpg"/>
+        </div>
         </div>
       </div>
     </section>
   );
 };
 
-SimplePageTemplate.propTypes = {
+HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -41,12 +49,12 @@ SimplePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const SimplePage = ({ data }) => {
+const HomePage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <SimplePageTemplate
+      <HomePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
@@ -57,14 +65,14 @@ const SimplePage = ({ data }) => {
   );
 };
 
-SimplePage.propTypes = {
+HomePage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default SimplePage;
+export default HomePage;
 
-export const simplePageQuery = graphql`
-  query SimplePage($id: String!) {
+export const HomePageQuery = graphql`
+  query HomePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

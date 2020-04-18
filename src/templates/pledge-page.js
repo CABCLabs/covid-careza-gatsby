@@ -17,21 +17,45 @@ export const PledgePageTemplate = ({
 
   return (
     <section className="section section--gradient">
-      <div className="container">
-        <Header title={title} image={image} subtitle={subtitle} />
-        <div className="columns">
-          <div className="column is-6">
-            <div className="section">
-              <PageContent className="content" content={content} />
-              <ContactForm />
-            </div>
-          </div>
-          <div className="column is-6">
-            <div className="section"></div>
-          </div>
-        </div>
+    <div className="container">
+      {/* <Header title={title} image={image} subtitle={subtitle} /> */}
+      <div className="columns">
+      <div className="column is-4 hideMob">
+      <img src="/img/join.jpg"/>
       </div>
-    </section>
+        <div className="column is-6">
+          <div className="section">
+          <h1 style={{ fontSize: `2rem`, fontWeight: '500' }}>Join CareZA for information that kickstarts healthy conversations</h1>
+          <PageContent className="content" content={content} />
+              <ContactForm />
+            <img src="/img/whats-app-profile.png" width='450'/>
+          <div className="content">
+      <h2 style={{ fontSize: `1.5rem`, fontWeight: '500' }}>The CareZA Manifesto</h2>
+<ul>
+<li>Wise up and Rise up to fake news and hate speech!</li>
+<li>Information is free but don’t let misinformation enslave us.</li>
+<li>Together we are strong, divided we fall prey to negativity.</li>
+<li>So BE the change. </li>
+<li>Be a Citizen Activist. </li>
+<li>Get people talking about serious, sad, even scary issues.</li>
+<li>Open minds. </li>
+<li>Let’s connect.</li>
+<li>Let’s debate. Let’s even disagree.</li>
+<li>But let’s share information that’s accurate.</li>
+<li>Let’s spread information that helps, not hurts. </li>
+<li>Let’s Care South Africa. </li>
+</ul>
+</div>
+        </div>
+        </div>
+        <div className="column is-4 hideDesk">
+      <img src="/img/join.jpg"/>
+      </div>
+ 
+      </div>
+     
+    </div>
+  </section>
   );
 };
 

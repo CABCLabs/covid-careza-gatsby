@@ -1,19 +1,6 @@
 import React from "react";
 export default ({ title, subtitle, image }) => (
   <div className="columns header">
-    {image ? (
-      <div className="column">
-        <div
-          className="header-image"
-          style={{
-            backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`
-          }}
-        ></div>
-      </div>
-    ) : null}
-
     <div className="column is-8">
       <div
         style={{
@@ -42,5 +29,17 @@ export default ({ title, subtitle, image }) => (
         ) : null}
       </div>
     </div>
+    {image ? (
+      <div className="column">
+        <div
+          className="header-image"
+          style={{
+            backgroundImage: `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`
+          }}
+        ></div>
+      </div>
+    ) : null}
   </div>
 );
