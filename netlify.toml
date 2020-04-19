@@ -8,6 +8,6 @@
   YARN_FLAGS = "--no-ignore-optional"
 
 [[redirects]]
-  from = "/covid/"
+  from = "/covid"
   to = "/covid/pledge"
   force = true
