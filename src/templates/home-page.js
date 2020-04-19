@@ -29,7 +29,6 @@ export const HomePageTemplate = ({
               <Link className="joinButton" to="/covid/pledge/">
                 Join Us
               </Link>
-              <img src="/img/careza-home.jpg" width='550'/>
             </div>
           </div>
           <div className="column is-4 hideDesk">

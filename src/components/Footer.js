@@ -22,14 +22,14 @@ const Footer = class extends React.Component {
         />
           <div className="columns">
             <div className="column is-12 social">
-              <a title="facebook" href="https://facebook.com">
+              <a title="facebook" href="https://www.facebook.com/careZASocial/" target="blank">
                 <img
                   src={facebook}
                   alt="Facebook"
                   style={{ width: '1em', height: '1em' }}
                 />
               </a>
-              <a title="twitter" href="https://twitter.com">
+              <a title="twitter" href="https://twitter.com/wecareza" target="blank">
                 <img
                   className="fas fa-lg"
                   src={twitter}

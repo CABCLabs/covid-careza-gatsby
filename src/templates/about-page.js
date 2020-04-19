@@ -26,7 +26,6 @@ export const AboutPageTemplate = ({
           <div className="section">
           <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
             <PageContent className="content" content={content} />
-            <img src="/img/whats-app-profile.png" width='450'/>
           </div>
         </div>
         <div className="column is-4 hideDesk">

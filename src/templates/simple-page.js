@@ -16,20 +16,23 @@ export const SimplePageTemplate = ({
 
   return (
     <section className="section section--gradient">
-      <div className="container">
-        {/* <Header title={title} image={image} subtitle={subtitle} /> */}
-        <div className="columns">
-        <div className="column is-4">
-        <img src="/img/black-logo-transparent.png"/>
-        </div>
-          <div className="column is-6">
-            <div className="section">
-              <PageContent className="content" content={content} />
-            </div>
+    <div className="container">
+      {/* <Header title={title} image={image} subtitle={subtitle} /> */}
+      <div className="columns">
+      <div className="column is-4 hideMob">
+      <img src="/img/home.jpg"/>
+      </div>
+        <div className="column is-6">
+          <div className="section">
+            <PageContent className="content" content={content} />
           </div>
         </div>
+        <div className="column is-4 hideDesk">
+      <img src="/img/home.jpg"/>
       </div>
-    </section>
+      </div>
+    </div>
+  </section>
   );
 };
 
