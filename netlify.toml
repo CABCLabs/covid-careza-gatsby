@@ -11,3 +11,4 @@
   from = "/covid"
   to = "/covid/pledge"
   force = true
+  status = 302
