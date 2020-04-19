@@ -9,5 +9,5 @@
 
 [[redirects]]
   from = "/covid/"
-  to = "/covid/join"
-   force = true
+  to = "/covid/pledge"
+  force = true
