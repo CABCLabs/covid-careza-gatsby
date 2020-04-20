@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "The week in social media "
-date: 2020-04-20T13:53:04.548Z
+date: 2020-04-19T13:53:04.548Z
 description: All of our research around important topics broadcast and discussed
   on social media are summarised here. These are the highlights you should know
   about.
