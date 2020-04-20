@@ -51,7 +51,7 @@ Wits University has made 5 000 additional laptops available. Some applauded Wits
 There have been many questions over lockdown regulations, here’s clarity on three pressing issues:
 
 * Children may only travel between co-holders of parental responsibility if the caregiver transporting the child has the court order and parenting plan in their possession.
-* Coal suppliers to Eskom and refineries will now work at full capacity. Mining will be conducted at 50% capacity.\
+* Coal suppliers to Eskom and refineries will now work at full capacity. Mining will be conducted at 50% capacity.
 * Traders for emergency repair services such as plumbers and electricians will be permitted to work.
 * Nobody can be evicted during the lockdown.
 
