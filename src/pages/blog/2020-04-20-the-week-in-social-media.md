@@ -10,7 +10,7 @@ featuredimage: /img/weekinreview.jpg
 tags:
   - News
 ---
-
+![children going hungry](/img/child-hunger.png "children going hungry")
 
 **Children going hungry**
 
@@ -19,11 +19,15 @@ Social media commentators are asking: What is the point of the lockdown if hunge
 
 Finance Minister Tito Mboweni stated he was considering a Basic Income Grant amid calls from concerned civilians over food security.
 
+![food parcels](/img/food-parcels.png "food parcels")
+
 **Food Parcels**\
 In Alexandra, police dispersed a crowd of people who had gathered to collect food parcels and who were not observing distancing rules. People said they had no choice but to stand in the queue from early in the morning to get food.\
 Mayor Geoff Makhubo has called for NGOs to contact the city before distributing food parcels.\
 Residents like Nosapho Dukada fear that they will die of hunger before the coronavirus kills people in poor communities.\
 Since the start of the lockdown, government has worked with social partners to provide food parcels for food-insecure households in all provinces.
+
+![financial relief](/img/financial-relief.png "financial relief")
 
 **Financial relief efforts**\
 As the lockdown continues, the conversation around Financial Relief Efforts is growing.\
@@ -34,9 +38,13 @@ The 5 000 tests conducted daily is seen as a positive performance, but it has be
 The World Health Organisation has warned that South Africa can expect numbers to go from thousands to potentially millions of infections in the next three to six months.\
 Discussion on the topic in social media was fairly quiet, considering the alarming scale of the insight.
 
+![online education](/img/online-schoolong.png "online education")
+
 **Online education solutions**\
 Conversation about the capacity of tertiary institutions to provide distance learning to remote locations peaked as universities across South Africa announced online distance learning initiatives on 17 April.\
 Wits University has made 5 000 additional laptops available. Some applauded Wits as an example for other universities to follow, while others noted that 5000 laptops was not enough and called for more to be distributed.
+
+![lockdown regulations](/img/lockdown.png "lockdown regulations")
 
 **Lockdown regulations**
 
@@ -47,13 +55,15 @@ There have been many questions over lockdown regulations, here’s clarity on th
 * Traders for emergency repair services such as plumbers and electricians will be permitted to work.
 * Nobody can be evicted during the lockdown.
 
-
+  ![](/img/president-letter.png)
 
 **Ramaphosa's letter to the nation**
 
 On 13 April President Ramaphosa penned a letter to the nation condemning vandalism of public infrastructure and gender based violence (GBV) during the lockdown.
 
 Ramaphosa blamed those who have taken advantage of the lockdown to loot, vandalise and burn to the ground several schools around the country for depriving thousands of children of their right to education. The President said that “Vandalism of public property and key economic infrastructure will not be tolerated” and called on communities to report such behaviour.
+
+![](/img/alcoho-ban.png)
 
 **Ban on alcohol and cigarettes sales**
 
