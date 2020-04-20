@@ -55,7 +55,7 @@ There have been many questions over lockdown regulations, here’s clarity on th
 * Traders for emergency repair services such as plumbers and electricians will be permitted to work.
 * Nobody can be evicted during the lockdown.
 
-  ![](/img/president-letter.png)
+![](/img/president-letter.png)
 
 **Ramaphosa's letter to the nation**
 
