@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "The week in social media "
+title: The week in social media | 21- 26 April 2020
 date: 2020-04-27T13:25:16.263Z
 description: All of our research around important topics broadcast and discussed
   on social media are summarised here. These are the highlights you should know
