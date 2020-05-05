@@ -22,8 +22,7 @@ Dr Mkhize said National Treasury had now agreed that all frozen posts for doctor
 
 Nando’s never disappoints - their Liquideep post drove two of the day’s top three topics by volume, and trended with a burst of 97%.
 
-Sleep in the news - msn.com’s article about better quality sleep was the day’s third biggest news story. South Africans care - a request for assistance to locate a missing person was the top post by reach (the appeal was retweeted over 3200 times).  Local production – a post celebrating SA crime drama (and Africa’s first Netflix show) Queen Sono was fifth top post by reach.
-#Mustfall fatigue - @pamela_mtanga’s post criticizing TwitterZA’s #mustfall culture was sixth by reach.
+Sleep in the news - msn.com’s article about better quality sleep was the day’s third biggest news story. South Africans care - a request for assistance to locate a missing person was the top post by reach (the appeal was retweeted over 3200 times).  Local production – a post celebrating SA crime drama (and Africa’s first Netflix show) Queen Sono was fifth top post by reach. #Mustfall fatigue - @pamela_mtanga’s post criticizing TwitterZA’s #mustfall culture was sixth by reach.
 
 **Many South Africans left disappointed with U-turn on Level 4 regulations**
 
@@ -41,8 +40,7 @@ Many South Africans are furious over the continued ban on tobacco sales. The con
 
 ![](/img/iilicit-cigs.png)
 
-News reporters and social media users voiced concerns about the inefficiency of the ban on tobacco sales, saying the only party winning was the illicit trade. The ban on alcohol and tobacco is costing South Africa R1.5 billion in lost sin tax revenue. Reporter Lindsay Dentlinger tweeted “SARS commissioner Edward Kieswetter says the ban on cigarette sales has cost the revenue service over R300m in the past month.”
-Journalist and Social Cohesion Advocate, Yusuf Abramjee stated that the ban was impoverishing the nation, enriching criminals and destroying the public’s faith in the lockdown. 
+News reporters and social media users voiced concerns about the inefficiency of the ban on tobacco sales, saying the only party winning was the illicit trade. The ban on alcohol and tobacco is costing South Africa R1.5 billion in lost sin tax revenue. Reporter Lindsay Dentlinger tweeted “SARS commissioner Edward Kieswetter says the ban on cigarette sales has cost the revenue service over R300m in the past month.” Journalist and Social Cohesion Advocate, Yusuf Abramjee stated that the ban was impoverishing the nation, enriching criminals and destroying the public’s faith in the lockdown. 
 
 **Back to school**
 
@@ -69,6 +67,5 @@ South Africans should feel vindicated that the Competition Commission has instit
 
 ![](/img/madagascar.png)
 
-Madagascar’s herbal remedy - COVID-Organics - is being promoted by the country’s President as an effective preventative treatment against the coronavirus (its effectiveness is still being tested). Some African countries support this remedy and the Minister of Health in Equatorial Guinea and the President of Guinea-Bissau have even collected consignments of it.
-Many Twitter users are hailing it as African ingenuity, and praising Congolese doctor Jérôme Munyangi (referred to as the originator). Many questioned why this remedy is not being celebrated internationally, with the conversation veering towards the view that “the West” is not open to African traditional remedies. 
+Madagascar’s herbal remedy - COVID-Organics - is being promoted by the country’s President as an effective preventative treatment against the coronavirus (its effectiveness is still being tested). Some African countries support this remedy and the Minister of Health in Equatorial Guinea and the President of Guinea-Bissau have even collected consignments of it. Many Twitter users are hailing it as African ingenuity, and praising Congolese doctor Jérôme Munyangi (referred to as the originator). Many questioned why this remedy is not being celebrated internationally, with the conversation veering towards the view that “the West” is not open to African traditional remedies. 
 Some social media users are sceptical and support clinical trials prior to mass roll-out, while supporters point to the numbers in Madagascar as proof (zero deaths and no new cases). The WHO maintains there is no official prevention or cure for the coronavirus, and people must maintain social distancing and follow strict hygiene routines. Check out this website Scare Facts that outlines why the WHO is not approving Covid Organics: http://scarcefacts.com/The-Covid-organics-of-madagascar-not-recommended-by-WHO.html
