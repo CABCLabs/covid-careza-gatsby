@@ -6,7 +6,7 @@ description: Every day we observe, dissect and analyse the news and information
   driving the conversations around the week’s most topical issues on social
   media. These are the highlights you should know about.
 featuredpost: false
-featuredimage: /img/weekinreview.jpg
+featuredimage: /img/this-week-in-social-media-03.jpg
 tags:
   - News
 ---
