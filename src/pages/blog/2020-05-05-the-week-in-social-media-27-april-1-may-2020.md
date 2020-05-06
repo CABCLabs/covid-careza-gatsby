@@ -62,10 +62,3 @@ The day before lockdown Level 4 came into effect, South Africans continued to se
 ![](/img/consum-protection.png)
 
 South Africans should feel vindicated that the Competition Commission has instituted a fine against Matus (dubbed by one media agency as a “greedy face mask dealer”) for R5.9 million for inflating the prices of face masks and other Personal Protective Equipment. Matus must also contribute an additional R5 million to the Solidarity Fund.  Narratives about price hikes and unscrupulous business practices resurfaced after this story broke. The telecoms giants were also in the spotlight: MTN agreed to reduce their prices from 1 May following pressure from the competition commission. The 1GB monthly data bundle will be reduced from R149 to R99. While Vodacom will also have to reach an agreement with the regulator on reducing the price of data.
-
-**Covid Organics**
-
-![](/img/madagascar.png)
-
-Madagascar’s herbal remedy - COVID-Organics - is being promoted by the country’s President as an effective preventative treatment against the coronavirus (its effectiveness is still being tested). Some African countries support this remedy and the Minister of Health in Equatorial Guinea and the President of Guinea-Bissau have even collected consignments of it. Many Twitter users are hailing it as African ingenuity, and praising Congolese doctor Jérôme Munyangi (referred to as the originator). Many questioned why this remedy is not being celebrated internationally, with the conversation veering towards the view that “the West” is not open to African traditional remedies. 
-Some social media users are sceptical and support clinical trials prior to mass roll-out, while supporters point to the numbers in Madagascar as proof (zero deaths and no new cases). The WHO maintains there is no official prevention or cure for the coronavirus, and people must maintain social distancing and follow strict hygiene routines. Check out this website Scare Facts that outlines why the WHO is not approving Covid Organics: http://scarcefacts.com/The-Covid-organics-of-madagascar-not-recommended-by-WHO.html
