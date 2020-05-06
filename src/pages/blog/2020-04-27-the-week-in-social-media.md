@@ -6,7 +6,7 @@ description: All of our research around important topics broadcast and discussed
   on social media are summarised here. These are the highlights you should know
   about.
 featuredpost: false
-featuredimage: /img/weekinreview.jpg
+featuredimage: /img/this-week-in-social-media-02.jpg
 tags:
   - News
 ---
