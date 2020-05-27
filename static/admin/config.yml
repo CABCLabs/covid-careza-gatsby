@@ -37,7 +37,25 @@ collections:
             }
           - { label: Image, name: image, widget: image }
           - { label: "Body", name: "body", widget: "markdown", required: false }
-
+      - file: "src/pages/unite/index.md"
+        label: "Unite"
+        name: "unite"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "unite",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }      
       - file: "src/pages/contact/index.md"
         label: "Contact"
         name: "contact"
