@@ -8,7 +8,7 @@ image: /img/image-for-organisations-to-support_web.jpg
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/r5Mc8WcO-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We had the privilege of filming Precious, a Zimbabwean who, together with her team, feeds hundreds every week in Vygrond, Cape Town. Our gratitude also goes to Niren Budhram whose Budorie’s food truck business was put on hold during lockdown, so he cooks for the Vygrond community as well, and has financed this out of his own pocket, with some donations from friends and family. Thanks to Soweto TV and the SABC for highlighting the donations by Somalian and other foreign shop owners.
+We had the privilege of filming two kindness kitchens in Vygrond, in Cape Town. The first is operated by the NPO **Where Rainbows Meet**, and the second is run by Precious, a Zimbabwean living in Cape Town. We thank you for allowing us to show your good work! Both these kitchens, together with the many others operating in Vygrond, feed thousands of hungry people in the community every day. Our gratitude also goes to Niren Budhram whose Budorie’s food truck business was put on hold during lockdown, so he cooks for the Vygrond community as well, and has financed this out of his own pocket, with some donations from friends and family. Thanks to Soweto TV and the SABC for highlighting the donations by Somalian and other foreign shop owners.
 
 *Music by Moby (mobygratis.com)*
 
@@ -18,7 +18,31 @@ We had the privilege of filming Precious, a Zimbabwean who, together with her te
 
 Support your local community members or organisations who are collecting funds or distributing food to impoverished families. Donate your time by volunteering or donate money or food and essential items. There are many ways to spread kindness, positivity and solidarity.
 
-Here are 6 organisations you can support:
+Here are 7 organisations you can support:
+
+#### **Where Rainbows Meet**
+
+<http://www.whererainbowsmeet.org>
+
+A non-profit organisation founded in 2008 and devoted to community and business development. Through programmes, initiatives, and awareness events, Where Rainbows Meet aims to improve the lives of people from the community by offering them the opportunity to gain knowledge and experience within the organisation.
+
+With the Covid Crisis, they are now currently covering feeding for the entire Vrygrond community. They also support the Steenberg, Lavender Hill, Riemvasmaak, Overcome Heights, Hillview and many other community kitchens with resources to make food for the people communities. The need and demand is growing daily and they are now supporting people in the thousands.
+
+**What they need:** Cash donations
+
+**What the funds will buy:** Food that will go to their feeding scheme
+
+**Who the goods will go to:** The people of the Vygrond, Steenberg, Lavender Hill, Riemvasmaak, Overcome Heights, Hillview and other communities
+
+**Where to donate:** If you would like to do a cash donation contact:
+
+Mrs. Mymoena Scholtz, Director
+
+Tel: +27 (0) 21 205 3496\
+Cell: +27 (0) 73 261 8864\
+Email: [mymoena@whererainbowsmeet.org](mailto:mymoena@whererainbowsmeet.org)
+
+They have also established a COVID-19 relief Backabuddy donation page, visit <https://www.backabuddy.co.za/champion/project/spread-the-word-not-the-virus>
 
 #### **Gift of the Givers**
 
