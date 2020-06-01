@@ -26,15 +26,15 @@ The day the President announced that religious gatherings of no more than 50 peo
 
 At 19:59 [@TomEatonSAtweeted](https://twitter.com/TomEatonSA/status/1265341694444285953) “Just so I’m clear: at level 3, we \*will\* be able to go into a church with 49 people we don't know and whose personal discipline around Covid hygiene is unknown to us, but we \*won't\* be able to visit the homes of friends or family?”. This post had already been retweeted over 1 000 times with close to 3 000 likesby this morning.
 
-The EFF’s @MbuyiseniNdlozi, who became very vocal against the move to level 3last week,asked: “[what’s next?](https://twitter.com/MbuyiseniNdlozi/status/1265345211619856385) If you say churches must open, what grounds do you have to deny these other spaces to also open?” This tweet was retweeted 1 000 times and had close to 5 000 likesby this morning. One responder commented that it was easier to control 50 people in a restaurant than in a church, so we should be allowed to open everything.
+The EFF’s @MbuyiseniNdlozi, who became very vocal against the move to level 3 last week, asked: “[what’s next?](https://twitter.com/MbuyiseniNdlozi/status/1265345211619856385) If you say churches must open, what grounds do you have to deny these other spaces to also open?” This tweet was retweeted 1 000 times and had close to 5 000 likesby this morning. One responder commented that it was easier to control 50 people in a restaurant than in a church, so we should be allowed to open everything.
 
-At 20:48 [@SayEntrepreneur tweeted](https://twitter.com/SayEntrepreneur/status/1265354158326132736) @CyrilRamaphosatocancel the lockdown,askingwhy churches were being prioritised over other gatherings.
+At 20:48 [@SayEntrepreneur tweeted](https://twitter.com/SayEntrepreneur/status/1265354158326132736) @CyrilRamaphosa to cancel the lockdown ,asking why churches were being prioritised over other gatherings.
 
 Social commentator Tumi Sole’s post from 26 May continues to gain traction, reflecting public sentiment. This post refers to South Korea and states “I’m just reminded of #Patient31. Also, have we not learnt anything on churches being epicenters of COVID-19?”. The post received almost 3 000 likes, retweets and comments.
 
 ***Polls over pews***
 
-Mmusi Maimane, former leader of the DA, sought public opinion on #churchisessential, asking: “When should our houses of faith reopen?”. The poll received nearly 9 700 responses: 69.8% said “when it's safe to open”, compared to only 10.4% supporting the planned opening on 1 June.Radio 2000’s poll received over 400 responses: nearly 50% of respondents answered with “Big Mistake”, around 12% were happy churches would finally open, and about 27% said: “Let’s open everything now”.
+Mmusi Maimane, former leader of the DA, sought public opinion on #churchisessential, asking: “When should our houses of faith reopen?”. The poll received nearly 9 700 responses: 69.8% said “when it's safe to open”, compared to only 10.4% supporting the planned opening on 1 June. Radio 2000’s poll received over 400 responses: nearly 50% of respondents answered with “Big Mistake”, around 12% were happy churches would finally open, and about 27% said: “Let’s open everything now”.
 
 **George Floyd**
 
