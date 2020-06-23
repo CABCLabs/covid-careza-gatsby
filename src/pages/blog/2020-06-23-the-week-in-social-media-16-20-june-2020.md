@@ -24,7 +24,7 @@ Another one was by Twitter user [@ArinaMadzunye](https://twitter.com/ArinaMadzun
 
 ![](/img/2.presidential-address.jpg)
 
-The top topic for Wednesday 17 June was “President Cyril Ramaphosa”, as he addressed the nation on an advanced lockdown Level 3 strategy that allows for further re-opening of the economy. In addition to his pronouncements on lockdown regulations, he also spoke out against the excessive violence that has been perpetrated against women and children in South African communities.
+The top topic for Wednesday 17 June was “President Cyril Ramaphosa”, as he addressed the nation on an advanced lockdown Level 3 strategy that allows for further re-opening of the economy. In addition to his pronouncements on lockdown regulations, he also spoke out against the excessive violence that has been perpetrated against women and children in South African communities. 
 
 #### The anticipation of the announcement…
 
