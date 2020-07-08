@@ -44,7 +44,7 @@ Shonisani Lethole, 35, died at Tembisa Hospital after being admitted with breath
 
 This story had over 11 000 mentions on Twitter, and a petition calling on government to “fix Tembisa hospital” received 17 000 signatures by the 4th of July. [Mmabatho Montsho](https://twitter.com/MmabathoMontsho/status/1279071258785779713) joined the call and her tweet reached over 285 000 eyeballs. The story reaffirmed that the South African public healthcare system is in crisis and woefully unfit to deal with a pandemic.
 
-Vusi Thembekwayo says it like it is – fed up with the corruption
+# *Vusi Thembekwayo says it like it is – fed up with the corruption*
 
 ![](/img/fed-up-with-corruption.jpg)
 
