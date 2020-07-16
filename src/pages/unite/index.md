@@ -88,7 +88,7 @@ Founded in 2000, [Feed SA](http://www.feedsa.co.za/) has three main goals: to fe
 
 **Where to donate:** Via [PayFast on their website](http://www.feedsa.co.za/covid19-action-plan/)
 
-**CLAW (Community Led Animal Welfare)**
+#### CLAW (Community Led Animal Welfare)\*\*
 
 <http://clawsa.wixsite.com/claw>
 
