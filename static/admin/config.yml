@@ -55,6 +55,25 @@ collections:
               required: false,
             }
           - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - file: "src/pages/unite-against-gbv/index.md"
+        label: "Unite Against GBV"
+        name: "unite"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "unite-against-gbv",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
           - { label: "Body", name: "body", widget: "markdown", required: false }      
       - file: "src/pages/contact/index.md"
         label: "Contact"
