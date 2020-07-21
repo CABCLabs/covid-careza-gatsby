@@ -58,7 +58,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown", required: false }
       - file: "src/pages/unite-against-gbv/index.md"
         label: "Unite Against GBV"
-        name: "unite"
+        name: "Unite Against GBV"
         fields:
           - {
               label: "Template Key",
