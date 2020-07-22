@@ -61,6 +61,8 @@ The South African Government site has compiled a comprehensive list of organisat
 
 We ask that you consider sponsoring a Mina Menstrual Cup for a survivor of GBV, it only costs R140 but it's a priceless gift.South African-made, Mina is a reusable menstrual cup that lasts for five years! Mina is made from 100% medical grade silicone which means she’s 100% safe, flexible and comfortable. No more expensive pads and tampons, and no more plastic pollution!
 
+![](/img/mina-image.jpg)
+
 Please click here to help: **<https://bit.ly/2DEbVBd>** <br/><br/> **STATS ON GENDER-BASED VIOLENCE IN SOUTH AFRICA**(source: safersspaces.org.za)
 
 * Population-based surveys show very high levels of intimate partner violence (IPV) and non-partner sexual violence (SV) in particular, with IPV being the most common form of violence against women.
