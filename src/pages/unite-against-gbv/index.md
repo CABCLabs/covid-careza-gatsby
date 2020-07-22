@@ -27,9 +27,7 @@ Enough is enough.
 
 **REFLECTIONS**
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/FBxfrqUaqgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<iframe style="margin: 20px;" width="100%" height="500" src="https://www.youtube.com/embed/FBxfrqUaqgY?rel=0" frameborder="0" rel="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **MEN, WE’RE HERE TO HELP YOU BE BETTER**
 
@@ -49,21 +47,21 @@ The ManKind Project (MKP) is a non-profit training and education organisation wi
 
 An organisation that works with men and boys across Africa engaging them on gender equality, HIV and other cultural issues. Contact Sonke Gender Justice for more information: **<https://genderjustice.org.za/contact-us/>**
 
+<br/>
+
 **HELP FOR SURVIVORS OF GENDER-BASED VIOLENCE**
 
 ![](/img/image-3.jpg)
 
 The South African Government site has compiled a comprehensive list of organisations that provide assistance to women and families affected by GBV. Click here for help:
 
-<https://www.gov.za/faq/justice-and-crime-prevention/where-can-i-find-organisation-offers-assistance-victims-violence>
+**<https://www.gov.za/faq/justice-and-crime-prevention/where-can-i-find-organisation-offers-assistance-victims-violence>**
 
 \#PeriodsDontLockdown #EndPeriodPoverty #StandUpAgainstGBV
 
 We ask that you consider sponsoring a Mina Menstrual Cup for a survivor of GBV, it only costs R140 but it's a priceless gift.South African-made, Mina is a reusable menstrual cup that lasts for five years! Mina is made from 100% medical grade silicone which means she’s 100% safe, flexible and comfortable. No more expensive pads and tampons, and no more plastic pollution!
 
-Please click here to help: <https://bit.ly/2DEbVBd>
-
-**STATS ON GENDER-BASED VIOLENCE IN SOUTH AFRICA**(source: safersspaces.org.za)
+Please click here to help: **<https://bit.ly/2DEbVBd>** <br/><br/> **STATS ON GENDER-BASED VIOLENCE IN SOUTH AFRICA**(source: safersspaces.org.za)
 
 * Population-based surveys show very high levels of intimate partner violence (IPV) and non-partner sexual violence (SV) in particular, with IPV being the most common form of violence against women.
 * Whilst people of all genders perpetrate and experience intimate partner and or sexual violence, men are most often the perpetrators and women and children the victims.
@@ -78,11 +76,9 @@ Please click here to help: <https://bit.ly/2DEbVBd>
 * There is limited research into rape targeting women who have sex with women. One study across four Southern African countries, including South Africa, found that 31.1% of women reported having experienced forced sex.
 * Male victims of rape are another under-studied group. One survey in KwaZulu-Natal and the Eastern Cape found that 9.6% of men reported having experienced sexual victimisation by another man.
 
-For more facts and information on gender-based violence, the different types of GBV, who it affects, what drives GBV and the impact on our society, visit <https://www.saferspaces.org.za/understand/entry/gender-based-violence-in-south-africa>
+For more facts and information on gender-based violence, the different types of GBV, who it affects, what drives GBV and the impact on our society, visit **<https://www.saferspaces.org.za/understand/entry/gender-based-violence-in-south-africa>**
 
- SaferSpaces is an interactive platform created by community safety and violence prevention practitioners in South Africa, with the aim of sharing information and learning from each other.
-
-**Credits:**
+ SaferSpaces is an interactive platform created by community safety and violence prevention practitioners in South Africa, with the aim of sharing information and learning from each other. <br/><br/> **Credits:**
 
 CareZA could not have made the Reflections Film, which highlights how gender-based violence starts and how we can stop it, without the generous participation of the following people. Huge Thanks to all of you for helping with this extremely important cause:
 
