@@ -84,6 +84,8 @@ For more facts and information on gender-based violence, the different types of 
 
 CareZA could not have made the Reflections Film, which highlights how gender-based violence starts and how we can stop it, without the generous participation of the following people. Huge Thanks to all of you for helping with this extremely important cause:
 
+**Created by Iron-Heart Content Creation Studio ([www.iron-heart.co.za](http://www.iron-heart.co.za/))**
+
 **Casting:**
 
 Andys Castings Studio
