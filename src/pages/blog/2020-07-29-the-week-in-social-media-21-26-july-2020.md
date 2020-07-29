@@ -78,8 +78,6 @@ Several posts stemming from last week’s nation-wide restaurant worker strike r
 
 **HIV**
 
-![](/img/hiv.png)
-
 *A top topic driving social media conversation this weekend was HIV and AIDS. This theme appeared under two of the top three topics by volume, “people” and “love”. The words HIV and AIDS were mentioned almost 5 000 times on Twitter over the weekend, up 21% from the previous two days.*
 
 **History of Denialism**
@@ -95,6 +93,8 @@ Another Twitter user took the opportunity to call out Manto Tshabalala Msimang[s
 The weekend also saw many sharing personal stories and expressions of solidarity for those living with HIV/AIDS. A[ top tweet](https://twitter.com/itsmuluba/status/1286677094903275520) in South Africa by @itsmuluba posted on 24 July read, “I was born w/ HIV. Medication keeps me healthy & my HIV virus undectable”\[sic] which makes me untransmittable. It’s like managing any condition.I remember the first time I was called “dirty & un-clean”. I am a beautiful smart black woman living w/ #HIV. Treat me as such - Management.” The post has garnered over 5 000 likes and over 1 400 retweet and comments at the time of writing.
 
 Another [post](https://twitter.com/Jomi_Cruz/status/1286403069643759617) by Manhattan-based Youtube personality and mental health advocate @Jomi_Cruz, resonated with South Africans and was widely shared over the weekend. The tweet read,
+
+![](/img/hiv.png)
 
 The post received over 186 000 likes and has been retweeted nearly 50 000 times world-wide since it was first posted on 23 July.
 
