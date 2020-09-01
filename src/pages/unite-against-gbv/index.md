@@ -4,6 +4,8 @@ path: /unite-against-gbv
 title: MEN, IT’S TIME TO END THE CYCLE OF VIOLENCE AGAINST GIRLS AND WOMEN
 image: /img/image-2.jpg
 ---
+<iframe style="margin: 20px;" width="100%" height="500" src="https://www.youtube.com/embed/FBxfrqUaqgY?rel=0" frameborder="0" rel="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 South Africa has some of the highest levels of violence perpetrated against women and children in the world. President Ramaphosa has acknowledged that our country is in a gender-based violence crisis. The stories are horrific, the numbers are shocking and the situation is unacceptable. So how did we get to this point?
 
 ***It’s normal to treat girls and women as inferior***
@@ -26,8 +28,6 @@ Kwanele madoda kwanele!
 Enough is enough.
 
 **REFLECTIONS**
-
-<iframe style="margin: 20px;" width="100%" height="500" src="https://www.youtube.com/embed/FBxfrqUaqgY?rel=0" frameborder="0" rel="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **MEN, WE’RE HERE TO HELP YOU BE BETTER**
 
