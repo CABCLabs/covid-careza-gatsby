@@ -345,3 +345,17 @@ p {
   width: 100%;
 }
 
+.radioStation { 
+  padding: 50px;
+  box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.212);
+  margin: 5px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/f/fc/Bush_Radio_Logo.png');
+  background-size: cover;
+  cursor: pointer;
+  min-height: 150px;
+  
+  border: 3px solid #fff;
+}
+.radioStation:hover { 
+  border: 3px solid #ffcc03;
+}

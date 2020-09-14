@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import { Link } from "gatsby";
 import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
 
@@ -19,19 +20,35 @@ export const CompetitionHomePageTemplate = ({
     <div className="container">
       {/* <Header title={title} image={image} subtitle={subtitle} /> */}
       <div className="columns">
-      <div className="column is-4 hideMob">
-      <img src="/img/about.jpg"/>
-      </div>
-        <div className="column is-6">
+        <div className="column is-8">
           <div className="section">
           <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
-            <PageContent className="content" content={content} />
+            <h2>Take action, co-create content and share your experiences
+</h2>
+<p>The co-creation of content sparks opportunities for dialogue where men reflect on their personal relationship with violence and old social norms on a mass scale. Through content co-creation we’re bringing these aspects into greater consciousness and generating opportunities for healing. We’re then asking men what action they’re going to take to make a difference.
+</p>
           </div>
         </div>
-        <div className="column is-4 hideDesk">
-      <img src="/img/about.jpg"/>
       </div>
+      <div className="section">
+        <h2>Choose your radio station</h2>
+        </div>
+        <div className="section">
+      <div className="columns">
+      <Link to="/competition/radio1" className="column is-4 radioStation">
+</Link>
+<Link to="/competition/radio1" className="column is-4 radioStation">
+</Link>
+<Link to="/competition/radio1" className="column is-4 radioStation">
+</Link>
+        </div>
+      <div className="columns">
+      <Link to="/competition/radio1" className="column is-4 radioStation">
+</Link>
+<Link to="/competition/radio1" className="column is-4 radioStation">
+</Link>
       </div>
+    </div>
     </div>
   </section>
   );
