@@ -6,4 +6,5 @@ description: Tester
 imageEntry: /img/about.jpg
 TextEntry: This is my entry
 VideoEntryUrl: https://www.youtube.com/watch?v=LzwwMGxohnI&ab_channel=BufferFestival
+station: radio1
 ---
