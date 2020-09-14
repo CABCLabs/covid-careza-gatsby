@@ -87,7 +87,7 @@ export default () => (
       query EntryRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "entry-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "entry" } } }
         ) {
           edges {
             node {
@@ -98,10 +98,11 @@ export default () => (
               }
               frontmatter {
                 title
+                VideoEntryUrl
                 templateKey
                 date(formatString: "DD/MM/YYYY")
                 featuredpost
-                featuredimage {
+                imageEntry {
                   childImageSharp {
                     fluid(maxWidth: 500, quality: 100) {
                       ...GatsbyImageSharpFluid

@@ -177,9 +177,9 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
   - name: "entry"
     label: "Entry"
-    folder: "src/pages/competition/entry"
+    folder: "src/pages/competition/entries"
     create: true
-    slug: "{{slug}} - {{year}}-{{month}}-{{day}}-"
+    slug: "{{slug}}-Entry"
     fields:
       - {
           label: "Template Key",
@@ -192,4 +192,4 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "ImageEntry", name: "imageEntry", widget: image }
       - { label: "TextEntry", name: "TextEntry", widget: "markdown" }
-      - { label: "VideoEntryUrl", name: "VideoEntryUrl", widget: "text" }
+      - { label: "VideoEntryUrl", name: "VideoEntryUrl", widget: "string" }

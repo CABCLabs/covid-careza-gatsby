@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import ReactPlayer from "react-player";
 
 export const EntryPostTemplate = ({
   content,
@@ -50,7 +52,7 @@ EntryPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
+  helmet: PropTypes.object
 }
 
 const EntryPost = ({ data }) => {
@@ -74,7 +76,25 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-    </Layout>
+        <header>
+                          {post.frontmatter.imageEntry ? (
+                            <div className="featured-thumbnail">
+                              <PreviewCompatibleImage
+                                imageInfo={{
+                                  image: post.frontmatter.imageEntry,
+                                  alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                                }}
+                              />
+                            </div>
+                          ) : null}
+                        </header>
+                        <ReactPlayer
+        url={post.frontmatter.VideoEntryUrl}
+      />
+                        <div>
+    </div>
+                      
+                        </Layout>
   )
 }
 
@@ -96,6 +116,14 @@ export const pageQuery = graphql`
         title
         description
         tags
+        imageEntry {
+          childImageSharp {
+            fluid(maxWidth: 500, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        VideoEntryUrl
       }
     }
   }

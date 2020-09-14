@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: entry
 title: James Tester
 date: 2020-09-14T12:35:20.968Z
 description: Tester
