@@ -25,22 +25,7 @@ export const EntryPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
           <h1 style={{ marginTop: '40px', marginBottom: '40px', fontSize: `3rem`, fontWeight: '500', textAlign: 'center' }}>{title}</h1>
-          
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+           </div>
         </div>
       </div>
     </section>
@@ -60,6 +45,9 @@ const EntryPost = ({ data }) => {
 
   return (
     <Layout>
+      <div className="columns">
+          <div className="column is-4">
+        <div>
       <EntryPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -76,6 +64,8 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      </div>
+      <div className="column is-4">
         <header>
                           {post.frontmatter.imageEntry ? (
                             <div className="featured-thumbnail">
@@ -88,12 +78,17 @@ const EntryPost = ({ data }) => {
                             </div>
                           ) : null}
                         </header>
+                        </div>
+                        </div>
+                        <div className="column is-4">
                         <ReactPlayer
         url={post.frontmatter.VideoEntryUrl}
       />
-                        <div>
+      </div>
+      <div>
+      <h4>{post.frontmatter.TextEntry}</h4>
+      </div>        
     </div>
-                      
                         </Layout>
   )
 }
@@ -124,6 +119,7 @@ export const pageQuery = graphql`
           }
         }
         VideoEntryUrl
+        TextEntry
       }
     }
   }
