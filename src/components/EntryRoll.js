@@ -38,11 +38,11 @@ class EntryRoll extends React.Component {
                         }`}
                       >
                         <header>
-                          {post.frontmatter.featuredimage ? (
+                          {post.frontmatter.imageEntry ? (
                             <div className="featured-thumbnail">
                               <PreviewCompatibleImage
                                 imageInfo={{
-                                  image: post.frontmatter.featuredimage,
+                                  image: post.frontmatter.imageEntry,
                                   alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                                 }}
                               />
@@ -88,6 +88,7 @@ export default () => (
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "entry" } } }
+          filter: { frontmatter: { station: { in: [$station] } } }
         ) {
           edges {
             node {
@@ -104,7 +105,7 @@ export default () => (
                 featuredpost
                 imageEntry {
                   childImageSharp {
-                    fluid(maxWidth: 500, quality: 100) {
+                    fluid(maxWidth: 2048, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

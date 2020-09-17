@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
-
+import EntryRoll from '../components/EntryRoll'
 export const CompetitionBrandPageTemplate = ({
   title,
   subtitle,
@@ -20,16 +20,18 @@ export const CompetitionBrandPageTemplate = ({
       {/* <Header title={title} image={image} subtitle={subtitle} /> */}
       <div className="columns">
       <div className="column is-4 hideMob">
-      <img src="/img/about.jpg"/>
+      <img src="/img/join.jpg"/>
       </div>
         <div className="column is-6">
           <div className="section">
           <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
             <PageContent className="content" content={content} />
+           <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}> Entry Feature</h2>
+            <EntryRoll/>
           </div>
         </div>
         <div className="column is-4 hideDesk">
-      <img src="/img/about.jpg"/>
+      <img src="/img/join.jpg"/>
       </div>
       </div>
     </div>
@@ -57,6 +59,7 @@ const CompetitionBrandPage = ({ data }) => {
         image={post.frontmatter.image}
         content={post.html}
       />
+      
     </Layout>
   );
 };
