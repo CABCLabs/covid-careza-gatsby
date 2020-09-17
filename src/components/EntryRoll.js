@@ -7,30 +7,22 @@ class EntryRoll extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    function shuffle(array) {
+      return [...array].sort(() => Math.random() - 0.5);
+  }
 
-    // This groups all teh posts by day
-    // Is somewhat relies on JS objects having a stable insertion key ordering
-    // But that is fine these days
-    const postGroups = posts.reduce((groups, { node: post }) => {
-      const date = post.frontmatter.date.substr(0, 10);
-
-      if (!groups.hasOwnProperty(date)) {
-        groups[date] = [];
-      }
-      groups[date].push(post);
-      return groups;
-    }, {});
+  const sortedArray = shuffle(posts);
 
     return (
       <div>
-        {Object.entries(postGroups).map(([date, posts]) => {
+        {Object.entries(postGroups).map(([date, sortedArray]) => {
           console.log(date, posts);
           return (
             <div className="blog-day-block">
               <h4 className="content">{date}</h4>
               <div className="columns is-multiline">
-                {posts &&
-                  posts.map((post) => (
+                {sortedArray &&
+                  sortedArray.map((post) => (
                     <div className="is-parent column is-4" key={post.id}>
                       <article
                         className={`blog-list-item tile is-child box notification ${
@@ -86,8 +78,9 @@ export default () => (
     query={graphql`
       query EntryRollQuery {
         allMarkdownRemark(
+          limit: 3
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "entry" } } }
+          filter: { frontmatter: { station: { eq: "radio1" } } }
         ) {
           edges {
             node {
