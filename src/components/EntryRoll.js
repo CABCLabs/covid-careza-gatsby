@@ -88,7 +88,6 @@ export default () => (
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "entry" } } }
-          filter: { frontmatter: { station: { in: [$station] } } }
         ) {
           edges {
             node {
