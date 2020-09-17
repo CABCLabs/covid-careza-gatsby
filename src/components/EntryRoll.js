@@ -30,11 +30,11 @@ class EntryRoll extends React.Component {
               }`}
             >
               <header>
-                {post.frontmatter.headerImage ? (
+                {post.frontmatter.imageEntry ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
                       imageInfo={{
-                        image: post.frontmatter.headerImage,
+                        image: post.frontmatter.imageEntry,
                         alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                       }}
                     />
