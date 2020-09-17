@@ -65,11 +65,11 @@ const EntryPost = ({ data }) => {
       />
       <div className="column is-8">
         <header>
-                          {post.frontmatter.imageEntry ? (
+                          {post.frontmatter.headerImage ? (
                             <div className="featured-thumbnail">
                               <PreviewCompatibleImage
                                 imageInfo={{
-                                  image: post.frontmatter.imageEntry,
+                                  image: post.frontmatter.headerImage,
                                   alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                                 }}
                               />
@@ -109,7 +109,7 @@ export const pageQuery = graphql`
         title
         description
         tags
-        imageEntry {
+        headerImage {
           childImageSharp {
             fluid(maxWidth: 500, quality: 100) {
               ...GatsbyImageSharpFluid
