@@ -46,7 +46,6 @@ const EntryPost = ({ data }) => {
   return (
     <Layout>
       <div className="columns">
-          <div className="column is-4">
         <div>
       <EntryPostTemplate
         content={post.html}
@@ -64,8 +63,7 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-      </div>
-      <div className="column is-4">
+      <div className="column is-8">
         <header>
                           {post.frontmatter.imageEntry ? (
                             <div className="featured-thumbnail">
@@ -78,15 +76,15 @@ const EntryPost = ({ data }) => {
                             </div>
                           ) : null}
                         </header>
-                        </div>
-                        </div>
-                        <div className="column is-4">
                         <ReactPlayer
         url={post.frontmatter.VideoEntryUrl}
       />
-      </div>
+     
       <div>
       <h4>{post.frontmatter.TextEntry}</h4>
+      
+      </div>
+      </div>
       </div>        
     </div>
                         </Layout>

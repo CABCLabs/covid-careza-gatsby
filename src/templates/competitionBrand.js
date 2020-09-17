@@ -26,7 +26,7 @@ export const CompetitionBrandPageTemplate = ({
           <div className="section">
           <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
             <PageContent className="content" content={content} />
-           <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}> Entry Feature</h2>
+           <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>Featured Entries</h2>
             <EntryRoll/>
           </div>
         </div>
