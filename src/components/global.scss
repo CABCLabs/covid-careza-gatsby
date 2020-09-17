@@ -471,3 +471,33 @@ input:checked + section.boxQue .box-title:before {
   line-height: 15px;
   padding-top: 20px!important;
 }
+.box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(43,37,35,.1), 0 0 0 1px rgba(43,37,35,.02);
+  color: #4a4a4a;
+  display: block;
+  padding: 0px;
+}
+.blog-list-item header { 
+  margin-bottom: 0px;
+}
+.post-meta { 
+  padding: 10px;
+  margin:0px;
+}
+.entryTitle { 
+  font-size: 18px;
+}
+.entryBox { 
+  box-shadow: 2px 2px 30px rgba(51, 51, 51, 0.205);
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.entryBox:hover { 
+  box-shadow: 2px 2px 40px  rgba(51, 51, 51, 0.205);
+  transform: scale(1.05);
+}
+.entries { 
+  margin-top: 25px;
+}

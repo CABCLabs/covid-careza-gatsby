@@ -22,7 +22,7 @@ export const CompetitionBrandPageTemplate = ({
       <div className="column is-4 hideMob">
       <img src="/img/join.jpg"/>
       </div>
-        <div className="column is-6">
+        <div className="column is-8">
           <div className="section">
           <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1>
             <PageContent className="content" content={content} />

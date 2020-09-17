@@ -20,21 +20,21 @@ class EntryRoll extends React.Component {
     const shuffledPosts = shuffleArray(posts);
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns is-multiline entries">
         {shuffledPosts &&
           shuffledPosts.map(({ node: post }) => (
             <div className="is-parent column is-4" key={post.id}>
             <article
-              className={`blog-list-item tile is-child box notification ${
+              className={`blog-list-item tile is-child box notification entryBox ${
                 post.frontmatter.featuredpost ? "is-featured" : ""
               }`}
             >
               <header>
-                {post.frontmatter.imageEntry ? (
+                {post.frontmatter.headerImage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
                       imageInfo={{
-                        image: post.frontmatter.imageEntry,
+                        image: post.frontmatter.headerImage,
                         alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                       }}
                     />
@@ -46,7 +46,7 @@ class EntryRoll extends React.Component {
                   className="title has-text-primary is-size-4"
                   to={post.fields.slug}
                 >
-                  {post.frontmatter.title}
+                  <span class="entryTitle">{post.frontmatter.title}</span>
                 </Link>
                 {/* <span className="subtitle is-size-5 is-block">
                   {post.frontmatter.date}
@@ -91,7 +91,7 @@ export default () => (
                 date(formatString: "DD/MM/YYYY")
                 featuredpost
                 station
-                imageEntry {
+                headerImage {
                   childImageSharp {
                     fluid(maxWidth: 500, quality: 100) {
                       ...GatsbyImageSharpFluid

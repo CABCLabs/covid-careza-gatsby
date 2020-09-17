@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: entry
 title: Tester 2
 date: 2020-09-17T14:03:05.162Z
 imageEntry: /img/6.png
