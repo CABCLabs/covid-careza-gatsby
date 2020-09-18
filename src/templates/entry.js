@@ -46,7 +46,7 @@ const EntryPost = ({ data }) => {
   return (
     <Layout>
       <div className="columns">
-        <div>
+      <div className="column is-12">
       <EntryPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -63,16 +63,19 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-      <div className="column is-8">
+      <p>{post.frontmatter.station} Competition</p>
+      <div class="entryBlock">
         <header>
-                          {post.frontmatter.headerImage ? (
+                          {post.frontmatter.imageEntry ? (
+                              <div className="column is-12">
                             <div className="featured-thumbnail">
                               <PreviewCompatibleImage
                                 imageInfo={{
-                                  image: post.frontmatter.headerImage,
+                                  image: post.frontmatter.imageEntry,
                                   alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                                 }}
                               />
+                            </div>
                             </div>
                           ) : null}
                         </header>
@@ -81,11 +84,11 @@ const EntryPost = ({ data }) => {
       />
      
       <div>
-      <h4>{post.frontmatter.TextEntry}</h4>
+      <h4 class="textEntry">{post.frontmatter.TextEntry}</h4>
       
       </div>
-      </div>
-      </div>        
+      </div>       
+    </div>
     </div>
                         </Layout>
   )
@@ -109,7 +112,7 @@ export const pageQuery = graphql`
         title
         description
         tags
-        headerImage {
+        imageEntry {
           childImageSharp {
             fluid(maxWidth: 500, quality: 100) {
               ...GatsbyImageSharpFluid
@@ -118,6 +121,7 @@ export const pageQuery = graphql`
         }
         VideoEntryUrl
         TextEntry
+        station
       }
     }
   }

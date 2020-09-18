@@ -193,4 +193,4 @@ collections:
       - { label: "headerImage", name: "headerImage", widget: image }
       - { label: "TextEntry", name: "TextEntry", widget: "markdown" }
       - { label: "VideoEntryUrl", name: "VideoEntryUrl", widget: "string" }
-      - { label: "Radio Station", name: "station", widget: "select",  options: ["radio1", "radio2", "radio3"] }
+      - { label: "Radio Station", name: "station", widget: "select",  options: ["Bush Radio", "radio1", "radio2", "radio3"] }
