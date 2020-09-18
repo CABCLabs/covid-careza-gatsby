@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import ReactPlayer from "react-player";
-
+import EntryRoll from '../components/EntryRoll'
 export const EntryPostTemplate = ({
   content,
   contentComponent,
@@ -63,7 +63,7 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-      <p>{post.frontmatter.station} Competition</p>
+      <p class="radioStationIntro">{post.frontmatter.station} Competition</p>
       <div class="entryBlock">
         <header>
                           {post.frontmatter.imageEntry ? (
@@ -87,11 +87,13 @@ const EntryPost = ({ data }) => {
       <h4 class="textEntry">{post.frontmatter.TextEntry}</h4>
       
       </div>
-      </div>       
+      <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>Related Entries</h2>
+            <EntryRoll/>     
+      </div>  
+      
     </div>
     </div>
-    <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>Related Entries</h2>
-            <EntryRoll/>
+   
                         </Layout>
   )
 }
