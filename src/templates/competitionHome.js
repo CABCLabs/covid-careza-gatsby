@@ -22,28 +22,28 @@ export const CompetitionHomePageTemplate = ({
       <div className="columns">
         <div className="column is-8">
           <div className="section">
-            <h2 style={{ color: '#3273dc', fontSize: `1.8rem`, fontWeight: 'bold' }}>Take action, co-create content and share your experiences
+            <h2 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.8rem`, fontWeight: 'bold' }}>Take action, co-create content and share your experiences
 </h2>
-<h4 style={{ fontSize: `1.1rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: '600' }}>The co-creation of content sparks opportunities for dialogue where men reflect on their personal relationship with violence and old social norms on a mass scale. Through content co-creation we’re bringing these aspects into greater consciousness and generating opportunities for healing. We’re then asking men what action they’re going to take to make a difference.
+<h4 style={{ color: 'rgb(77, 173, 51)',fontSize: `1.1rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: '600' }}>The co-creation of content sparks opportunities for dialogue where men reflect on their personal relationship with violence and old social norms on a mass scale. Through content co-creation we’re bringing these aspects into greater consciousness and generating opportunities for healing. We’re then asking men what action they’re going to take to make a difference.
 </h4>
-<h4 style={{ color: '#3273dc', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>How to enter:
+<h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>How to enter:
 </h4>
 
 Send a WhatsApp to 076 573 2155 with your name and surname
 
 The chance to receive rewards for sharing your experience ends on 00/00/2020
-<h4 style={{ color: '#3273dc', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Rewards and Awards</h4>
+<h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Rewards and Awards</h4>
 <ul style={{width: '100%', display: 'inline-block'}}>
-  <li style={{ backgroundColor: '#ffcc03', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong>Award 1</strong>: R3000</li>
-  <li style={{ backgroundColor: '#ffcc03', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong>Award 2</strong>: R1500</li>
-  <li style={{ backgroundColor: '#ffcc03', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong>Award 3</strong>: R500</li>
+  <li style={{ backgroundColor: '#4dad33', color: '#fff', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong style={{color: '#fff'}}>Award 1</strong>: R3000</li>
+  <li style={{ backgroundColor: '#4dad33', color: '#fff', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong style={{color: '#fff'}}>Award 2</strong>: R1500</li>
+  <li style={{ backgroundColor: '#4dad33', color: '#fff', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong style={{color: '#fff'}}>Award 3</strong>: R500</li>
   </ul>
 
 
 Talent agents will take a look at entry submissions so you stand a chance of being discovered when you submit your content successfully.
 
 
-<h4 style={{ color: '#3273dc', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Questions:
+<h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Questions:
 </h4>
 <nav class="accordion arrows">
 		<input type="radio" name="accordion" id="cb1" />
@@ -88,7 +88,7 @@ Talent agents will take a look at entry submissions so you stand a chance of bei
 
 		<input type="radio" name="accordion" id="acc-close" />
 	</nav>
-<h4 style={{ color: '#3273dc', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Accepted Entry Formats via WhatsApp:
+<h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Accepted Entry Formats via WhatsApp:
 </h4>
 <ol style={{ marginLeft: '50px'}}>
   <li>
@@ -112,7 +112,7 @@ Written - stories, poetry</li>
         </div>
       </div>
       <div className="section">
-        <h2>Choose your radio station</h2>
+        <h2 class="chooseStation">Choose your radio station</h2>
         </div>
         <div className="section">
       <div className="columns">

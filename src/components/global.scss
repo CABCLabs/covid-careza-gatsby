@@ -357,19 +357,19 @@ p {
   border: 3px solid #fff;
 }
 .radioStation:hover { 
-  border: 3px solid #ffcc03;
+  border: 3px solid #4dad33;
 }
 .quickLinkWrap { 
   margin-top: 30px;
   font-size: 20px;
 }
 .quickLink { 
-  color: #3273dc;
+  color: #4dad33;
   font-size: 20px;
   font-weight: bold; 
 }
 .quickLink:hover { 
-  color: #2660bd;
+  color: #3d9226;
   font-size: 20px;
   font-weight: bold; 
 }
@@ -384,7 +384,7 @@ p {
 }
 .boxQue {
 	position: relative;
-	background: #ffcc03;
+	background: #4dad33;
     height: 64px;
     transition: all .15s ease-in-out;
 }
@@ -424,8 +424,17 @@ header .box-title {
 .box-content {
 	width: calc(100% - 40px);
 	padding: 30px 20px;
-	font-size: 11pt;
-	display: none;
+	font-size: 13pt;
+  display: none;
+  color: #fff;
+}
+.chooseStation { 
+  color: #4dad33;
+  font-weight: bold;
+  font-size: 17px; 
+}
+.box-content strong { 
+  color: #fff;
 }
 .box-close {
 	position: absolute;
@@ -470,6 +479,7 @@ input:checked + section.boxQue .box-title:before {
   font-weight: bold;
   line-height: 15px;
   padding-top: 20px!important;
+  color: #fff;
 }
 .box {
   background-color: #fff;
@@ -502,7 +512,7 @@ input:checked + section.boxQue .box-title:before {
   margin-top: 25px;
 }
 .entryBlock { 
-  background: #ffcc03;
+  background: #4dad33;
   padding: 20px;
   border-radius: 20px;
   max-width: 80%;
@@ -510,11 +520,12 @@ input:checked + section.boxQue .box-title:before {
   margin-right: auto;
   display: block;
 }
-.entryBlock h1, h2, h3, h4, h5, h6, p { 
-  color: #3273dc;
+.entryBlock p { 
+  font-size: 15px;
+  font-weight: bold;
 }
 .textEntry { 
-  color: #3273dc;
+  color: #fff;
   margin-top: 20px;
   font-size: 16px;
   letter-spacing: 2px;
@@ -529,4 +540,17 @@ input:checked + section.boxQue .box-title:before {
   text-align: center;
   font-weight: bold;
   padding: 20px;
+  color: #fff;
+}
+.wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

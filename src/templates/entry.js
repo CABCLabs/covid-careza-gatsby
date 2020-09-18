@@ -21,13 +21,7 @@ export const EntryPostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-          <h1 style={{ marginTop: '40px', marginBottom: '40px', fontSize: `3rem`, fontWeight: '500', textAlign: 'center' }}>{title}</h1>
-           </div>
-        </div>
-      </div>
+      
     </section>
   )
 }
@@ -37,7 +31,7 @@ EntryPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
 }
 
 const EntryPost = ({ data }) => {
@@ -63,8 +57,15 @@ const EntryPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
-      <p class="radioStationIntro">{post.frontmatter.station} Competition</p>
       <div class="entryBlock">
+      <div className="container content">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+          <h1 style={{ color: '#fff', marginTop: '0px', marginBottom: '0px', fontSize: `3rem`, fontWeight: '500', textAlign: 'center' }}>{post.frontmatter.title}</h1>
+           </div>
+        </div>
+      </div>
+      <p class="radioStationIntro">{post.frontmatter.station} Competition</p>
         <header>
                           {post.frontmatter.imageEntry ? (
                               <div className="column is-12">
@@ -79,15 +80,20 @@ const EntryPost = ({ data }) => {
                             </div>
                           ) : null}
                         </header>
-                        <ReactPlayer
-        url={post.frontmatter.VideoEntryUrl}
-      />
-     
+                        <div className='wrapper'>
+  <ReactPlayer
+    className='player'
+    controls='true'
+    url={post.frontmatter.VideoEntryUrl}
+    width='100%'
+    height='100%'
+  />
+</div>
       <div>
-      <h4 class="textEntry">{post.frontmatter.TextEntry}</h4>
+      <h4  class="textEntry">{post.frontmatter.TextEntry}</h4>
       
       </div>
-      <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>Related Entries</h2>
+      <h2 style={{ color: '#fff', marginTop: '50px', fontSize: `2rem`, fontWeight: '500' }}>Related Entries</h2>
             <EntryRoll/>     
       </div>  
       
@@ -116,13 +122,7 @@ export const pageQuery = graphql`
         title
         description
         tags
-        imageEntry {
-          childImageSharp {
-            fluid(maxWidth: 500, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        imageEntry
         VideoEntryUrl
         TextEntry
         station
