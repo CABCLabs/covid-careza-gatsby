@@ -6,5 +6,5 @@ imageEntry: /img/7.-institutionalised-racism.jpg
 headerImage: /img/vid1.png
 TextEntry: This is my entry
 VideoEntryUrl: https://www.youtube.com/watch?v=LzwwMGxohnI&ab_channel=BufferFestival
-station: radio1
+station: Bush Radio
 ---
