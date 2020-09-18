@@ -90,6 +90,8 @@ const EntryPost = ({ data }) => {
       </div>       
     </div>
     </div>
+    <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>Related Entries</h2>
+            <EntryRoll/>
                         </Layout>
   )
 }

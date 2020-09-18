@@ -80,7 +80,7 @@ export default () => (
       query EntryRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { station: { eq: "radio1" } } }
+          filter: { frontmatter: { station: { eq: "Bush Radio" } } }
         ) {
           edges {
             node {
