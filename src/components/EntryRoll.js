@@ -10,7 +10,7 @@ function shuffleArray(array) {
     array[i] = array[j];
     array[j] = temp;
   }
-  return array.slice(0, 4);;
+  return array.slice(0, 6);;
   
 }
 class EntryRoll extends React.Component {
