@@ -25,11 +25,8 @@ export const PledgePageTemplate = ({
       </div>
         <div className="column is-6">
           <div className="section">
-          <h1 style={{ fontSize: `2rem`, fontWeight: '500' }}>Join CareZA for information that kickstarts healthy conversations</h1>
-          <PageContent className="content" content={content} />
-              <ContactForm />
           <div className="content">
-      <h2 style={{ fontSize: `1.5rem`, fontWeight: '500' }}>The CareZA Manifesto</h2>
+      <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>The CareZA Manifesto</h2>
       <p>
 Wise up and Rise up to fake news and hate speech!<br/>
 Information is free but don’t let misinformation enslave us.<br/>
@@ -45,6 +42,10 @@ Let’s spread information that helps, not hurts. <br/>
 Let’s Care South Africa. <br/>
 </p>
 </div>
+          <h1 style={{ fontSize: `2rem`, fontWeight: '500' }}>Join CareZA for information that kickstarts healthy conversations</h1>
+          <PageContent className="content" content={content} />
+              <ContactForm />
+     
         </div>
         </div>
         <div className="column is-4 hideDesk">

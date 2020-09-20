@@ -12,9 +12,9 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="content">
             
-<p style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', marginTop: '0px', marginBottom: '80px', fontSize: `1rem`, fontWeight: '500', textAlign: 'center' }}>
-CareZA will never promote or endorse fake news, hate speech, propaganda, hoaxes or misinformation, but we will expose it where necessary. This is a platform created for public service and for doing good, so our aim is to always provide factually correct and helpful information for you to share. 
-</p>
+<p style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', marginTop: '0px', marginBottom: '5px', fontSize: `2rem`, fontWeight: '500', textAlign: 'center' }}>
+Know your facts and start healthy conversations. </p>
+<p style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', marginTop: '0px', marginBottom: '5px', fontSize: `1.1rem`, fontWeight: '500', textAlign: 'center' }}>Stay up to date with all the latest news and get different perspectives on social, political and environmental issues right here. Here are our top picks of essential reading:</p>
               <BlogRoll />
               <p style={{ width: '70%', marginLeft: 'auto', marginRight: 'auto', marginTop: '40px', marginBottom: '40px', fontSize: `1rem`, fontWeight: '500', textAlign: 'center' }}>
               For more interesting reads check out the Centre for Analytics and Behavioural Change:<br/>

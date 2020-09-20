@@ -26,8 +26,8 @@ export const HomePageTemplate = ({
           <div className="column is-6">
             <div className="section">
               <PageContent className="content" content={content} />
-              <Link className="joinButton" to="/covid/pledge/">
-                Join Us
+              <Link className="joinButton" to="/blog/">
+              CLICK HERE FOR ESSENTIAL READING    
               </Link>
             </div>
           </div>

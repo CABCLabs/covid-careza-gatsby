@@ -5,6 +5,4 @@ title: Contact Us
 image: /img/careza-fc.png
 ---
 
-We want to hear from you! So if you’ve got any questions, suggestions or just want to reach out, give us a shout.
-
-### [info@cabc.org.za](mail:info@cabc.org.za).
+Send us a message on our <a href="https://www.facebook.com/careZASocial/" target="blank">Facebook page</a> or email <a href="mailto:info@cabc.org.za" target="blank">info@cabc.org.za</a> and let’s make change happen together.
