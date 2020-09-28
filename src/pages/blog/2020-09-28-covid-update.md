@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Covid update
 date: 2020-09-28T07:17:56.915Z
 description: South Africa's numbers and stats show we weren't as affected as
-  other countries. Why is?
+  other countries. Why is this?
 featuredpost: false
 featuredimage: /img/essential-reading-06.jpg
 tags:
