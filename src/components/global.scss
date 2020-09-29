@@ -558,3 +558,26 @@ input:checked + section.boxQue .box-title:before {
   margin: 10px;
   margin-bottom: 50px;
 }
+.backButton { 
+  background: #3299cc;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.backButton:hover { 
+  background-color: #ffcc03;
+}
+@media (max-width: 678px) { 
+  .entryBlock { 
+    background: #4dad33;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+} 

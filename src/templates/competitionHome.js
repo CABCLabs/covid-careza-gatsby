@@ -29,9 +29,9 @@ export const CompetitionHomePageTemplate = ({
 <h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>How to enter:
 </h4>
 
-Send a WhatsApp to 076 573 2155 with your name and surname
+Send a WhatsApp to 076 573 2155 with your name and surname.
 
-The chance to receive rewards for sharing your experience ends on 00/00/2020
+
 <h4 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Rewards and Awards</h4>
 <ul style={{width: '100%', display: 'inline-block'}}>
   <li style={{ backgroundColor: '#4dad33', color: '#fff', padding: '20px', width: 'fit-content', float: 'left', margin: '10px', fontSize: '1.2rem', fontWeight: '500' }}><strong style={{color: '#fff'}}>Award 1</strong>: R3000</li>
@@ -105,7 +105,7 @@ Radio - In the vernacular script competition, which includes radio skits, snippe
 Written - stories, poetry</li>
 
 </ol>
-<p class="quickLinkWrap"><a class="quickLink">Terms and conditions</a> | <a class="quickLink">Rules</a></p>
+
 
 
           </div>
@@ -116,7 +116,7 @@ Written - stories, poetry</li>
         </div>
         <div className="section">
       <div className="columns">
-      <Link to="/competition/bush-radio" className="column is-4 radioStation">
+      <Link to="/content-creation/bush-radio" className="column is-4 radioStation">
 </Link>
 {/* <Link to="/competition/radio1" className="column is-4 radioStation">
 </Link>
