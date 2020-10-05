@@ -96,20 +96,8 @@ export default () => (
                 date(formatString: "DD/MM/YYYY")
                 featuredpost
                 station
-                headerImage {
-                  childImageSharp {
-                    fluid(maxWidth: 500, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-                imageEntry {
-                  childImageSharp {
-                    fluid(maxWidth: 500, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                headerImage 
+                imageEntry 
               }
             }
           }

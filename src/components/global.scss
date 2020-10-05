@@ -385,8 +385,9 @@ p {
 .boxQue {
 	position: relative;
 	background: #4dad33;
-    height: 64px;
+    min-height: 65px;
     transition: all .15s ease-in-out;
+    margin-bottom: 7px;
 }
 .boxQue::before {
     content: '';
@@ -477,8 +478,8 @@ input:checked + section.boxQue .box-title:before {
 }
 .queText { 
   font-weight: bold;
-  line-height: 15px;
-  padding-top: 20px!important;
+  line-height: 14px;
+  padding-top: 12px!important;
   color: #fff;
 }
 .box {

@@ -8,42 +8,34 @@ image: /img/careza-fc.png
  <a class="backButton" href="/content-creation/bush-radio">
  < Back to Bush Radio Content Creation Page
 </a>
-<h2><strong>Confronting Misogyny @ Scale experiment.</strong></h2>
+<h2><strong>Confronting Misogyny at Scale experiment.</strong></h2>
 <h3><strong>Community radio station and CABC partnership.</strong></h3>
 <p><span style="font-weight: 400;">Bush Radio and Centre for Analytics and Behavioural Change</span></p>
 <h3><strong>Prize</strong></h3>
 <p><span style="font-weight: 400;">Content Creation</span></p>
-<p><span style="font-weight: 400;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One cash reward of R1500, R1000 or R500 per winner&nbsp;</span></p>
+<p><span style="font-weight: 400;">One cash reward of R1500, R1000 or R500 per winner&nbsp;</span></p>
 
 
 <h3><strong><strong>How to enter</strong></strong></h3>
 
 <ol>
-<ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Send a WhatsApp message to the number provided by the participating radio station (Bush Radio) in response to a specific question.</span></li>
-</ol>
 </ol>
 
 
 <h3><strong><strong>Competition period</strong></strong></h3>
 
 <ol>
-<ol>
-<ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">The competition runs from (01 October 2020) (&ldquo;Competition Period&rdquo;)</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">The competition closes on (14 November&nbsp; 2020)</span></li>
-</ol>
-</ol>
 </ol>
 
 <h3><strong><strong>Winner selection process</strong></strong></h3>
 
 <ol>
-<ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">CABC will capture qualifying finalists submitted to the WhatApp group 0600111011 , transfer to website and return viewing url to the submitting WhatsApp account. Provide selected submissions for use on radio or website. &nbsp; The list of 5 finalists list will be sent to all WhatsApp applications asking them to vote via WhatsApp</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">THE WINNERS WILL BE CONTACTED TELEPHONICALLY BY CABC TO VERIFY THEIR PERSONAL DETAILS AND ANY OTHER RELEVANT INFORMATION TO ENSURE THEIR ELIGIBILITY TO REDEEM THE PRIZE.</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">THE RESULTS WILL BE VERIFIED BY AN</span> <span style="font-weight: 400;">INDEPENDENT ACCOUNTANT, REGISTERED AUDITOR OR ATTORNEY.</span></li>
-</ol>
 </ol>
 <h3><strong>Competition terms and conditions</strong></h3>
 <ol>
@@ -85,6 +77,6 @@ image: /img/careza-fc.png
 <li style="font-weight: 400;"><span style="font-weight: 400;">Income taxes relating to the prizes, if any, are the sole responsibility of the prize winners</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">These competition rules will be construed, interpreted and enforced in accordance with the laws of the Republic of South Africa</span></li>
 </ol>
-<p><span style="font-weight: 400;">A</span><span style="font-weight: 400;"> copy of the rules can be found on CABC website at this link: </span><span style="font-weight: 400;">www.</span></p>
+<p><span style="font-weight: 400;">A</span><span style="font-weight: 400;"> A copy of the rules can be found on CareZa website at this link: </span><span style="font-weight: 400;">https://www.careza.co.za/content-creation/bush-radio-terms-and-conditions/</span></p>
 
 
