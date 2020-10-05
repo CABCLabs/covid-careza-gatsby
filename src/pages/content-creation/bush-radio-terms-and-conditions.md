@@ -8,8 +8,8 @@ image: /img/careza-fc.png
  <a class="backButton" href="/content-creation/bush-radio">
  < Back to Bush Radio Content Creation Page
 </a>
-<h2><strong>Confronting Misogyny at Scale experiment.</strong></h2>
-<h3><strong>Community radio station and CABC partnership.</strong></h3>
+<h2><strong>Confronting Misogyny At Scale Experiment.</strong></h2> 
+<h3><strong>Community Radio Station and CABC Partnership.</strong></h3>
 <p><span style="font-weight: 400;">Bush Radio and Centre for Analytics and Behavioural Change</span></p>
 <h3><strong>Prize</strong></h3>
 <p><span style="font-weight: 400;">Content Creation</span></p>
@@ -77,6 +77,6 @@ image: /img/careza-fc.png
 <li style="font-weight: 400;"><span style="font-weight: 400;">Income taxes relating to the prizes, if any, are the sole responsibility of the prize winners</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">These competition rules will be construed, interpreted and enforced in accordance with the laws of the Republic of South Africa</span></li>
 </ol>
-<p><span style="font-weight: 400;">A</span><span style="font-weight: 400;"> A copy of the rules can be found on CareZa website at this link: </span><span style="font-weight: 400;">https://www.careza.co.za/content-creation/bush-radio-terms-and-conditions/</span></p>
+<p><span style="font-weight: 400;"></span><span style="font-weight: 400;"> A copy of the rules can be found on CareZa website at this link: </span><span style="font-weight: 400;">https://www.careza.co.za/content-creation/bush-radio-terms-and-conditions/</span></p>
 
 

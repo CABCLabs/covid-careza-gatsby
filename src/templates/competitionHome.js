@@ -109,7 +109,7 @@ Written - stories, poetry</li>
         </div>
       </div>
       <div className="section" style={{ paddingTop: '0px', paddingBottom: '0px'}}>
-        <h2 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Choose your radio station</h2>
+        <h2 style={{ color: 'rgb(77, 173, 51)', fontSize: `1.3rem`, marginBottom: '20px',  marginTop: '20px', fontWeight: 'bold' }}>Choose Your Radio Station</h2>
         </div>
         <div className="section">
       <div className="columns">

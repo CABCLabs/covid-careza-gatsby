@@ -1,7 +1,7 @@
 ---
 templateKey: competitionBrand
 path: /content-creation/bush-radio
-title: Bush Radio content creation
+title: Bush Radio Content Creation
 image: /img/careza-fc.png
 ---
 
