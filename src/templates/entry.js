@@ -122,7 +122,13 @@ export const pageQuery = graphql`
         title
         description
         tags
-        imageEntry 
+        imageEntry {
+          childImageSharp {
+            fluid(maxWidth: 500, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         VideoEntryUrl
         TextEntry
         station
