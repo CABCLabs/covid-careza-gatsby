@@ -80,6 +80,7 @@ const EntryPost = ({ data }) => {
                             </div>
                           ) : null}
                         </header>
+                        {post.frontmatter.imageEntry.length ? (
                         <div className='wrapper'>
   <ReactPlayer
     className='player'
@@ -88,7 +89,11 @@ const EntryPost = ({ data }) => {
     width='100%'
     height='100%'
   />
-</div>
+  </div>
+  ) : (
+    null
+  )}
+
       <div>
       <h4  class="textEntry">{post.frontmatter.TextEntry}</h4>
       
