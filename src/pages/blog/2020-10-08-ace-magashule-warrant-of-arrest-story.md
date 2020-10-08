@@ -9,4 +9,7 @@ featuredimage: /img/essential-reading-05.jpg
 tags:
   - News
 ---
+Does Ace have any support within the ANC? Stephen Grootes writes.
+
+\
 [Read the full story here > ](https://www.dailymaverick.co.za/article/2020-10-07-ace-in-a-hole-the-rumble-is-about-to-get-real/)
