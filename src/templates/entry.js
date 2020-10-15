@@ -80,7 +80,7 @@ const EntryPost = ({ data }) => {
                             </div>
                           ) : null}
                         </header>
-                        {post.frontmatter.imageEntry.length ? (
+                        {post.frontmatter.VideoEntryUrl ? (
                         <div className='wrapper'>
   <ReactPlayer
     className='player'
@@ -127,13 +127,7 @@ export const pageQuery = graphql`
         title
         description
         tags
-        imageEntry {
-          childImageSharp {
-            fluid(maxWidth: 500, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        imageEntry
         VideoEntryUrl
         TextEntry
         station
