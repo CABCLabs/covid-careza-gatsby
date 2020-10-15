@@ -8,7 +8,7 @@ export default class EntryIndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-    
+     
               <EntryRoll />
             
         </section>
