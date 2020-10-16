@@ -6,7 +6,7 @@ image: /img/image-for-organisations-to-support_web.jpg
 ---
 **From soup kitchens to food parcels, people all across South Africa have stepped up to help feed hungry communities during the Covid-19 pandemic. To ALL of you, we say Thank You.**
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/r5Mc8WcO-fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/_OGb2INdsE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We had the privilege of filming two kindness kitchens in Vygrond, in Cape Town. The first is operated by the NPO **Where Rainbows Meet**, and the second is run by Precious, a Zimbabwean living in Cape Town. We thank you for allowing us to show your good work! Both these kitchens, together with the many others operating in Vygrond, feed thousands of hungry people in the community every day. Our gratitude also goes to Niren Budhram whose Budorie’s food truck business was put on hold during lockdown, so he cooks for the Vygrond community as well, and has financed this out of his own pocket, with some donations from friends and family. Thanks to Soweto TV and the SABC for highlighting the donations by Somalian and other foreign shop owners.
 
