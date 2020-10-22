@@ -9,6 +9,6 @@ featuredimage: /img/essential-listening-09.jpg
 tags:
   - News
 ---
-In this 3 part episode, the CABC's Adam Armstrong chats to Jean Le Roux, a Research Associate at the Digital Forensic Research Lab (DFR), about how false information on social media is organised and being weaponised.\
+In this 3 part episode, the CABC's Adam Armstrong chats to Jean Le Roux, a Research Associate at the Digital Forensic Research Lab (DFR), about how false information on social media is organised and being weaponised.
 
 <iframe src="https://iframe.iono.fm/c/5282" width="100%" height="450" frameborder="0"></iframe>
