@@ -2,7 +2,7 @@
 templateKey: entry
 title: My Story
 date: 2020-10-15T08:24:56.555Z
-headerImage: /img/sound1.png
+headerImage: /img/written-2.png
 TextEntry: My story goes like this when I was going out with my girlfriend now
   my wife i abuse my wife verbal and physical from the 80s till the late 90s she
   get a interderdic by the court and I never stop I was that time on drugs heavy
