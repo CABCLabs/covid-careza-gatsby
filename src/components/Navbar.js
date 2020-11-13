@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item navItemGen yellowNav" to="/about">
                 About
               </Link>
-              <Link className="navbar-item navItemGen redNav" to="/covid/pledge">
+              <Link className="navbar-item navItemGen redNav" to="/join">
                 Join
               </Link>
               <Link className="navbar-item navItemGen greenNav" to="/blog">

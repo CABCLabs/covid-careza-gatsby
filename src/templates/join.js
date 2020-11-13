@@ -3,15 +3,14 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import ContactForm from "../components/ContactForm";
 import Content, { HTMLContent } from "../components/Content";
 
-export const PledgePageTemplate = ({
+export const JoinPageTemplate = ({
   title,
   subtitle,
   image,
   content,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -21,57 +20,37 @@ export const PledgePageTemplate = ({
       {/* <Header title={title} image={image} subtitle={subtitle} /> */}
       <div className="columns">
       <div className="column is-4 hideMob">
-      <img src="/img/join.jpg"/>
+      <img src="/img/image-for-organisations-to-support_web.jpg"/>
       </div>
         <div className="column is-6">
           <div className="section">
-          <div className="content">
-      <h2 style={{ fontSize: `2rem`, fontWeight: '500' }}>The CareZA Manifesto</h2>
-      <p>
-Wise up and Rise up to fake news and hate speech!<br/>
-Information is free but don’t let misinformation enslave us.<br/>
-Together we are strong, divided we fall prey to negativity.<br/>
-So BE the change. <br/>
-Be a Citizen Activist.<br/>
-Get people talking about serious, sad, even scary issues.<br/>
-Open minds. <br/>
-Let’s connect.<br/>
-Let’s debate. Let’s even disagree.<br/>
-But let’s share information that’s accurate.<br/>
-Let’s spread information that helps, not hurts. <br/>
-Let’s Care South Africa. <br/>
-</p>
-</div>
-          <h1 style={{ fontSize: `2rem`, fontWeight: '500' }}>Join CareZA for information that kickstarts healthy conversations</h1>
-          <PageContent className="content" content={content} />
-             
-     
-        </div>
+          {/* <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1> */}
+            <PageContent className="content" content={content} />
+          </div>
         </div>
         <div className="column is-4 hideDesk">
-      <img src="/img/join.jpg"/>
+      <img src="/img/image-for-organisations-to-support_web.jpg"/>
       </div>
- 
       </div>
-     
     </div>
   </section>
   );
 };
 
-PledgePageTemplate.propTypes = {
+JoinPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
-const PledgePage = ({ data }) => {
+const JoinPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <PledgePageTemplate
+      <JoinPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
@@ -82,14 +61,14 @@ const PledgePage = ({ data }) => {
   );
 };
 
-PledgePage.propTypes = {
-  data: PropTypes.object.isRequired
+JoinPage.propTypes = {
+  data: PropTypes.object.isRequired,
 };
 
-export default PledgePage;
+export default JoinPage;
 
-export const pledgePageQuery = graphql`
-  query PledgePage($id: String!) {
+export const JoinPageQuery = graphql`
+  query JoinPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -37,6 +37,44 @@ collections:
             }
           - { label: Image, name: image, widget: image }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+      - file: "src/pages/weCare/index.md"
+        label: "WeCare"
+        name: "WeCare"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "simple-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - file: "src/pages/join/index.md"
+        label: "Join"
+        name: "Join"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "join",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
       - file: "src/pages/unite/index.md"
         label: "Unite"
         name: "unite"
@@ -115,7 +153,6 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: "Introduction", name: "introduction", widget: "markdown" }
           - { label: "Body", name: "body", widget: "markdown", required: false }
-
       - file: "src/pages/covid/pledge.md"
         label: "Covid-19 Pledge"
         name: "covid-pledge"
