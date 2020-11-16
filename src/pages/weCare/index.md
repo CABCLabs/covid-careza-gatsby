@@ -12,7 +12,7 @@ image: /img/careza-fc.png
 <p>We need your help to combat the #PutSouthAfricansFirst xenophobic campaign.</p>
 <p>Join the conversation on Twitter, have your say! If you see dishonesty, aggression or bullying, call it out. Use these hashtags to get involved:</p>
 <h4 class="hashtagBig">#WeCare</h4>
-<h4 class="hashtagBig">#NoToXeno</h4>
+<h4 class="hashtagBig">#SayNoToXeno</h4>
 <br/>
 <h4>Find us on <a href="https://twitter.com/wecareza" target="_blank">Twitter </a>and&nbsp;<a href="https://www.facebook.com/careZASocial/" target="_blank">Facebook</a></h4>
 
