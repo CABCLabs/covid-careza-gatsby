@@ -12,3 +12,8 @@
   to = "/covid/pledge"
   force = true
   status = 302
+[[redirects]]
+  from = "/"
+  to = "/weCare"
+  force = true
+  status = 302
