@@ -10,9 +10,9 @@ image: /img/image-for-organisations-to-support_web.jpg
 <p><strong>So join us, have your say!</strong></p>
 <p>Right now we are focused on stopping the xenophobic #PutSouthAfricansFirst campaign.</p>
 <p>This week we&rsquo;re using these hashtags:</p>
-<h4 class="hashtagBig"><strong>#WeCare</strong></h4>
-<h4 class="hashtagBig"><strong>#SayNoToXeno</strong></h4>
+<h4 class="hashtagBig">#WeCare</h4>
+<h4 class="hashtagBig">#SayNoToXeno</h4>
 <p>(we&rsquo;ll update the hashtags regularly, so do check back!)</p>
 <p><br /> We welcome anyone who wants to help create a more honest, safer internet.</p>
 <p>&nbsp;</p>
-<p>Find us on <a href="https://twitter.com/wecareza" target="_blank">Twitter </a>and&nbsp;<a href="https://www.facebook.com/careZASocial/" target="_blank">Facebook</a></p>
+<h4>Find us on <a href="https://twitter.com/wecareza" target="_blank">Twitter </a>and&nbsp;<a href="https://www.facebook.com/careZASocial/" target="_blank">Facebook</a></h4>
