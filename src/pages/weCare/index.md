@@ -5,14 +5,13 @@ title: WeCare
 image: /img/careza-fc.png
 ---
 
-<h2><strong>Welcome!</strong></h2>
-<p>In recent months there has been a growing conversation online using the #PutSouthAfricansFirst hashtag. The people leading this campaign claim that they are looking out for you and I, for regular South Africans. But they have used dishonest and misleading tactics in their campaign. They have also called for violence and to deport all foreigners. We see their xenophobia and their dishonesty and we oppose it! We stand together as a united and welcoming South Africa. The trick that this group has done so well is that they coordinate online, they make it seem like &lsquo;everyone&rsquo; is on their side. In actual fact there are about 30 accounts that are leading their whole campaign, and it is a dishonest campaign. They make claims that are untrue and they have misrepresented themselves.</p>
-<p>Now it is our turn. <strong>#WeCare</strong> is a collection of regular South Africans, and we coordinate because <strong>#WeCare</strong> about our country. We stand against xenophobia and we stand for love.</p>
-<h3><strong>Join us!</strong></h3>
+<h3><strong>Welcome Digital Activist!</strong></h3>
+<p>In recent months there has been a growing conversation online using this hashtag: #PutSouthAfricansFirst.</p>
+<p>The people leading this campaign claim that they are looking out for regular South Africans. However, they have spread false stories about foreign nationals, creating anger towards them, inciting violence and calling for their deportation. Many South Africans are struggling: unemployment is high, crime rates are high. #PutSouthAfricansFirst tells us this is because of foreigners, it is not.</p>
+<h3><strong><a href="https://www.careza.co.za/join/">Join us!</a></strong></h3>
 <p>We need your help to combat the #PutSouthAfricansFirst xenophobic campaign.</p>
 <p>Join the conversation on Twitter, have your say! If you see dishonesty, aggression or bullying, call it out. Use these hashtags to get involved:</p>
-<p class="hashtagBig"><strong>#WeCare</strong></p>
-<p class="hashtagBig"><strong>#NoToXeno</strong></p>
-<p>(we&rsquo;ll update the hashtags regularly, so do check back!)</p>
-<p>Find us on <a href="https://twitter.com/wecareza" target="blank">Twitter</a> and Facebook</p>
+<h4 class="hashtagBig"><strong>#WeCare</strong></h4>
+<h4 class="hashtagBig"><strong>#NoToXeno</strong></h4>
+<p>Find us on <a href="https://twitter.com/wecareza" target="_blank">Twitter </a>and&nbsp;<a href="https://www.facebook.com/careZASocial/" target="_blank">Facebook</a></p>
 
