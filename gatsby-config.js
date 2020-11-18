@@ -78,17 +78,17 @@ module.exports = {
         purgeOnly: ["/styles.scss"] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`300`, `400`, `700`]
-          }
-        ]
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Open Sans`,
+    //         variants: [`300`, `400`, `700`]
+    //       }
+    //     ]
+    //   }
+    // },
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
 };
