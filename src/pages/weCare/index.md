@@ -18,7 +18,7 @@ image: /img/careza-fc.png
 
 <p>We need your help to combat the #PutSouthAfricansFirst xenophobic campaign. <br/>
 Stand up against dishonesty, aggression or bullying.<br/>
-Stand with us, join the conversation. </br></p>
+Stand with us, <a href="/join">join the conversation.</a> </br></p>
 <br/>
 <h4>Find us on <a href="https://twitter.com/wecareza" target="_blank">Twitter </a>and&nbsp;<a href="https://www.facebook.com/careZASocial/" target="_blank">Facebook</a></h4>
 
