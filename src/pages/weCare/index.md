@@ -14,7 +14,7 @@ image: /img/careza-fc.png
 
 <p>Simply put, this campaign is xenophobic and dishonest. We stand up against it and stand together as a united and welcoming South Africa.</p>
 
-<p>#WeCare is a collection of ordinary South Africans, coming together because #WeCare about our country. </p>
+<p>#WeCare is a collection of ordinary South Africans, coming together because #WeCareZA about our country. </p>
 
 <p>We need your help to combat the #PutSouthAfricansFirst xenophobic campaign. <br/>
 Stand up against dishonesty, aggression or bullying.<br/>

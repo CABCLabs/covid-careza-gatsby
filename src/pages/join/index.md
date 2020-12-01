@@ -12,7 +12,7 @@ image: /img/image-for-organisations-to-support_web.jpg
 <p>So, be an active citizen, stand with us, have your say!
 <p>If you see dishonesty, aggression or bullying online, call it out. Right now we are focused on stopping the xenophobic #PutSouthAfricansFirst campaign. 
 Use these hashtags to get involved: </p>
-<h4 class="hashtagBig">#WeCare</h4>
+<h4 class="hashtagBig">#WeCareZA</h4>
 <h4 class="hashtagBig">#NoToXeno</h4>
 <p>(we’ll update the hashtags regularly, so visit this page for updates)</p>
 
