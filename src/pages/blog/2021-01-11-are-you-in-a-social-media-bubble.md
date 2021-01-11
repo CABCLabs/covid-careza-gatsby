@@ -8,4 +8,4 @@ featuredimage: /img/essential-reading-05.jpg
 tags:
   - News
 ---
-Social media echo chambers can be dangerous because the algorithm only serves you what it thinks you'll like and what you usually believe (based on past searches), so you'll never see a different perspective. [Read here to learn how to restore balance to your feed:](https://www.wired.com/story/facebook-twitter-echo-chamber-confirmation-bias/)
+Social Media echo chambers can be dangerous because the algorithm only serves you what it thinks you'll like and what you usually believe (based on past searches), so you'll never see a different perspective. [Read here to learn how to restore balance to your feed:](https://www.wired.com/story/facebook-twitter-echo-chamber-confirmation-bias/)
