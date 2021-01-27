@@ -2,8 +2,8 @@
 templateKey: blog-post
 title: How liars create the "illusion of truth"
 date: 2021-01-27T11:53:43.154Z
-description: How do politicians and people in powerful positions get away with
-  spreading false information and fake news?
+description: "How do politicians and people in powerful positions get away with
+  spreading false information and fake news? "
 featuredpost: false
 featuredimage: /img/essential-reading-07.jpg
 tags:
