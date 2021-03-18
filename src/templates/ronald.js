@@ -108,11 +108,13 @@ export const RonaldTemplate = ({
             <PageContent className="content" content={content} />
           </div>
         </div>
+        <div className="learnMoreBox">
         <div className="columns">
           <div className="column is-12">
-        <div class="learnMoreBox">
           <h3 class="learnMore">Learn more</h3>
           <h4 class="learnMoreSub">Creating awareness</h4>
+          </div>
+          </div>
           <div className="columns">
             <div className="column is-6 infoBox">
               <h3>The rise of fake Facebook accounts, the why and the how.</h3>
@@ -187,8 +189,6 @@ export const RonaldTemplate = ({
           </div>
         </div>
         </div>
-        </div>
-      </div>
     </section>
   );
 };
