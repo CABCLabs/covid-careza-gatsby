@@ -22,14 +22,13 @@ export const RonaldTemplate = ({
           <div className="column is-12">
             <h3 class="ronaldIntro">
               <strong>
-                Hi, I&rsquo;m Ronald, and I&rsquo;m here to con you{" "}
+                Hi, I'm Ronald, and I'm here to con you{" "}
               </strong>
             </h3>
           </div>
         </div>
         <div className="columns">
           <div className="column is-12">
-            {/* <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1> */}
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -47,9 +46,16 @@ export const RonaldTemplate = ({
 <p>Enough about me, just watch this short film about me</p>
           </div>
         </div>
+        <div className="columns">
+          <div className="column is-12 infoBox">
+          <h3 class="standWith">Stand with us, <a href="/join">join the conversation.</a></h3>
+            </div>
+            </div>
+        
         <div className="learnMoreBox">
         <div className="columns">
           <div className="column is-12">
+          
           <h3 class="learnMore">Learn more</h3>
           <h4 class="learnMoreSub">Creating awareness</h4>
           </div>
