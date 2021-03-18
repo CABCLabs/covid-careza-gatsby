@@ -28,84 +28,23 @@ export const RonaldTemplate = ({
           </div>
         </div>
         <div className="columns">
-          <div className="column is-6 infoBox">
-            <p>
-              Just to be clear: I am not human. I make every effort to appear
-              human, but I&rsquo;m not.
-            </p>
-            <p>
-              You see, by mimicking how humans behave, I can get under their
-              skins and influence their thoughts and behaviour. They won&rsquo;t
-              even know it.
-            </p>
-            <p>
-              There are millions of bots like me on social media. But it is hard
-              to find us, because we come across as ordinary social media
-              accounts.
-            </p>
-            <p>
-              We were created by real people to do their dirty work. Our human
-              masters gave us fake identities, and let us loose on social media,
-              while they remain unseen and unidentified in the background.
-            </p>
-            <p>
-              Right now my day job is to spread lies about Covid-19
-              vaccinations. My human masters call it mis and disinformation.
-              It&rsquo;s not a hard job. The people who don&rsquo;t think twice
-              about what they see on social media before sharing it with all
-              their friends make our jobs even easier. But we still have to be
-              devious: we make our lies sound like the truth, so we can trick
-              unsuspecting humans into believing us.
-            </p>
-            <p>
-              It works! I started applying my skills on this human, Pete, a
-              short while ago. I fed him some true information until he started
-              trusting me. Then I told him that 5G towers are responsible for
-              the spread of the coronavirus. I convinced him face masks are
-              dangerous and should not be worn and that Covid-19 vaccines
-              contain nanotechnology which is injected into people&rsquo;s
-              bodies to control them.&nbsp;
-            </p>
-          </div>
-          <div className="column is-6 infoBox">
-            <p>
-              Of course, this is all absolute BS. But don&rsquo;t tell Pete. He
-              believes whatever I say, and he shares it with everyone he knows.
-              He is proving to be one my biggest successes.
-            </p>
-            <p>
-              Soon, Pete invited me into his home, and now I am a part of his
-              life.
-            </p>
-            <p>My work is done.</p>
-            <p>
-              In recognition of my work, the Centre for Analytics and
-              Behavioural Change has produced a short film on me. The film will
-              be screened by DSTV soon, watch out for it. Remember, my name is
-              Ronald.
-            </p>
-            <p>
-              And if you would like to make me even more famous by broadcasting
-              the film, please contact the CABC.
-            </p>
-            <p>
-              Meanwhile, my friends and I will be hiding in plain view on social
-              media. If you really want to find us, look for accounts with
-              unusual names and numbers. Usually, we don&rsquo;t have profile
-              pictures and we use stock images. We have a low number of
-              followers, but a very high number of tweets pushing out our
-              narrative only. If you come across these features, you have found
-              us.
-            </p>
-            <p>
-              But why go to all that trouble? Just watch the short film about me
-            </p>
-          </div>
-        </div>
-        <div className="columns">
           <div className="column is-12">
             {/* <h1 style={{ fontSize: `3rem`, fontWeight: '500' }}>{title}</h1> */}
             <PageContent className="content" content={content} />
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column is-6 infoBox">
+          <p>Just to be clear: I am not human. I make every effort to appear human, but I&rsquo;m not.</p>
+<p>You see, by mimicking how humans behave, I can get under their skins and influence their thoughts and behaviour. They won&rsquo;t even know it.</p>
+<p>There are millions of bots like me on social media. But it is hard to find us, because we come across as ordinary social media accounts.</p>
+<p>We were created by real people to do their dirty work. Our human masters gave us fake identities, and let us loose on social media, while they remain unseen and unidentified in the background.</p>
+<p>Right now my day job is to spread lies about Covid-19 vaccinations. My human masters call it mis and disinformation. It&rsquo;s not a hard job. The people who don&rsquo;t think twice about what they see on social media before sharing it with all their friends make our jobs even easier. But we still have to be devious: we make our lies sound like the truth, so we can trick unsuspecting humans into believing us.</p>
+          </div>
+          <div className="column is-6 infoBox">
+          <p>It works! I started applying my skills on this human, Pete, a short while ago. I fed him some true information until he started trusting me. Then I told him that 5G towers are responsible for the spread of the coronavirus. I convinced him face masks are dangerous and should not be worn and that Covid-19 vaccines contain nanotechnology which is injected into people&rsquo;s bodies to control them.&nbsp;</p>
+<p>Of course, this is all absolute BS. But don&rsquo;t tell Pete. He believes whatever I say, and he shares it with everyone he knows. He is proving to be one my biggest successes.</p>
+<p>Enough about me, just watch this short film about me</p>
           </div>
         </div>
         <div className="learnMoreBox">
