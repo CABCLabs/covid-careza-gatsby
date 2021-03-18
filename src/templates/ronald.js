@@ -117,7 +117,7 @@ export const RonaldTemplate = ({
               <p>
                 Fake accounts are mostly used to amplify the popularity or
                 dislike of a person or movement, thus manipulating users' views
-                of true public sentiment.{" "}
+                of true public sentiment.
                 <a
                   href="https://phys.org/news/2019-05-fake-facebook-accounts-never-ending-bots.html"
                   target="_blank"
@@ -132,7 +132,7 @@ export const RonaldTemplate = ({
               <p>
                 Asked the bot to verify if they have gotten through to another
                 bot or a believer. How do you know who you are engaging with
-                online? Can you tell who is a bot or who isn’t?{" "}
+                online? Can you tell who is a bot or who isn’t?
                 <a
                   href="https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html"
                   target="_blank"
@@ -155,9 +155,9 @@ export const RonaldTemplate = ({
                 interference of bots that manipulate and change the
                 conversation. The bot accounts are then added to a public
                 database that the public can browse and use to make informed
-                decisions.{" "}
+                decisions.
                 <a href="https://botsentinel.com/" target="_blank">
-                  <br />
+                <br />
                   See more here >>
                 </a>
               </p>
@@ -172,7 +172,7 @@ export const RonaldTemplate = ({
                 is done by empowering individuals and helping them to recognize
                 and reject divisive narratives, hate speech and misinformation
                 ultimately making them less susceptible to consuming propaganda
-                and mis and disinformation.{" "}
+                and mis and disinformation.
                 <a
                   href="https://www.irex.org/project/learn-discern-l2d-media-literacy-training"
                   target="_blank"
