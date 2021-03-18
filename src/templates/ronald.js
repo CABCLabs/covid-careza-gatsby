@@ -125,7 +125,7 @@ export const RonaldTemplate = ({
                   target="_blank"
                 >
                   <br />
-                  Read more here >>
+                  Read more here
                 </a>
               </p>
             </div>
@@ -140,7 +140,7 @@ export const RonaldTemplate = ({
                   target="_blank"
                 >
                   <br />
-                  Read more here >>
+                  Read more here
                 </a>
               </p>
             </div>
@@ -160,7 +160,7 @@ export const RonaldTemplate = ({
                 decisions.
                 <a href="https://botsentinel.com/" target="_blank">
                 <br />
-                  See more here >>
+                  See more here
                 </a>
               </p>
             </div>
@@ -180,7 +180,7 @@ export const RonaldTemplate = ({
                   target="_blank"
                 >
                   <br />
-                  Learn more >>
+                  Learn more
                 </a>
               </p>
             </div>
