@@ -108,6 +108,8 @@ export const RonaldTemplate = ({
             <PageContent className="content" content={content} />
           </div>
         </div>
+        <div className="columns">
+          <div className="column is-12">
         <div class="learnMoreBox">
           <h3 class="learnMore">Learn more</h3>
           <h4 class="learnMoreSub">Creating awareness</h4>
@@ -184,6 +186,8 @@ export const RonaldTemplate = ({
             </div>
           </div>
         </div>
+        </div>
+        </div>
       </div>
     </section>
   );
@@ -226,13 +230,6 @@ export const RonaldPageQuery = graphql`
       frontmatter {
         title
         subtitle
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
