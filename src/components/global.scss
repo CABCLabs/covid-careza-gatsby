@@ -629,27 +629,6 @@ input:checked + section.boxQue .box-title:before {
 .infoBox a { 
   font-weight: bold;
 }
-[style*="--aspect-ratio"] > :first-child {
-  width: 100%;
-}
-[style*="--aspect-ratio"] > img {  
-  height: auto;
-} 
-@supports (--custom:property) {
-  [style*="--aspect-ratio"] {
-    position: relative;
-  }
-  [style*="--aspect-ratio"]::before {
-    content: "";
-    display: block;
-    padding-bottom: calc(100% / (var(--aspect-ratio)));
-  }  
-  [style*="--aspect-ratio"] > :first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }  
-}
 .ronaldIntro {
   margin-top: 50px;
 }
@@ -657,4 +636,8 @@ input:checked + section.boxQue .box-title:before {
   font-weight: bold;
   font-size: 19px;
   color: #3299cc;
+}
+.ronaldVid { 
+  width: 100%;
+  height: 50vw;
 }
