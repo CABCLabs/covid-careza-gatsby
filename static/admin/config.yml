@@ -56,6 +56,25 @@ collections:
             }
           - { label: Image, name: image, widget: image }
           - { label: "Body", name: "body", widget: "markdown", required: false }
+      - file: "src/pages/ronald/index.md"
+        label: "Ronald"
+        name: "Ronald"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "ronald",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Sub-title",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - { label: Image, name: image, widget: image }
+          - { label: "Body", name: "body", widget: "markdown", required: false }    
       - file: "src/pages/join/index.md"
         label: "Join"
         name: "Join"
