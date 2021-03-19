@@ -647,3 +647,16 @@ input:checked + section.boxQue .box-title:before {
   font-size: 25px;
   color: #000;
 }
+.CTAButton1 { 
+  background-color: #ffcc03;
+  color: #fff;
+  padding: 15px 75px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 22px;
+}
+.CTAButton1:hover { 
+  background-color: #3299cc;
+  color: #ffcc03;
+}

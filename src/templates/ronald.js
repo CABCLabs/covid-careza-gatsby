@@ -22,7 +22,7 @@ export const RonaldTemplate = ({
           <div className="column is-12">
             <h3 class="ronaldIntro">
               <strong>
-                Hi, I'm Ronald, and I'm here to con you{" "}
+              Ronald will make you look, and think, twice.
               </strong>
             </h3>
           </div>
@@ -33,22 +33,27 @@ export const RonaldTemplate = ({
           </div>
         </div>
         <div className="columns">
+          <div className="column is-12 infoBox">
+          <p>Pete is just an ordinary guy who gets his news and information from social media.</p>
+<p>In this mockumentary, we meet Pete and his new-found friend Ronald, who Pete met online. Thing is Pete doesn&rsquo;t realise Ronald is actually a bot.</p>
+<p>It might seem obvious to us, but in a digital landscape where bot accounts on Facebook and Twitter appear as human as anyone, it's not that hard to be fooled. And sadly, Pete doesn't realise that he&rsquo;s being duped by a bot into thinking the information he's getting is factual and accurate.</p>
+</div></div>
+<div className="columns">
           <div className="column is-6 infoBox">
-          <p>Just to be clear: I am not human. I make every effort to appear human, but I&rsquo;m not.</p>
-<p>You see, by mimicking how humans behave, I can get under their skins and influence their thoughts and behaviour. They won&rsquo;t even know it.</p>
-<p>There are millions of bots like me on social media. But it is hard to find us, because we come across as ordinary social media accounts.</p>
-<p>We were created by real people to do their dirty work. Our human masters gave us fake identities, and let us loose on social media, while they remain unseen and unidentified in the background.</p>
-<p>Right now my day job is to spread lies about Covid-19 vaccinations. My human masters call it mis and disinformation. It&rsquo;s not a hard job. The people who don&rsquo;t think twice about what they see on social media before sharing it with all their friends make our jobs even easier. But we still have to be devious: we make our lies sound like the truth, so we can trick unsuspecting humans into believing us.</p>
-          </div>
-          <div className="column is-6 infoBox">
-          <p>It works! I started applying my skills on this human, Pete, a short while ago. I fed him some true information until he started trusting me. Then I told him that 5G towers are responsible for the spread of the coronavirus. I convinced him face masks are dangerous and should not be worn and that Covid-19 vaccines contain nanotechnology which is injected into people&rsquo;s bodies to control them.&nbsp;</p>
-<p>Of course, this is all absolute BS. But don&rsquo;t tell Pete. He believes whatever I say, and he shares it with everyone he knows. He is proving to be one my biggest successes.</p>
-<p>Enough about me, just watch this short film about me</p>
-          </div>
-        </div>
+<img src="/img/pete.jpg" width="100%" />
+</div>
+<div className="column is-6 infoBox">
+<img src="/img/ronald.jpg" width="100%" />
+</div></div>
+<div className="columns">
+          <div className="column is-12 infoBox">
+<p>Bots are all over social media, we can&rsquo;t escape them. But we can be aware and discerning about who we follow, and what information we share, especially facts about Covid-19 and the vaccine. Follow only credible news sources that have research-backed evidence about a news story.</p>
+<p>Watch Pete and Ronald's story here, a cautionary tale about who you allow into your social media space.</p>
+</div>
+</div>
         <div className="columns">
           <div className="column is-12 infoBox">
-          <h3 class="standWith">Stand with us, <a href="/join">join the conversation.</a></h3>
+          <h3 class="standWith">Stand up against mis & disinformation<br/><a className="CTAButton1" href="/join">join the conversation.</a></h3>
             </div>
             </div>
         
@@ -57,7 +62,6 @@ export const RonaldTemplate = ({
           <div className="column is-12">
           
           <h3 class="learnMore">Learn more</h3>
-          <h4 class="learnMoreSub">Creating awareness</h4>
           </div>
           </div>
           <div className="columns">
@@ -92,7 +96,6 @@ export const RonaldTemplate = ({
               </p>
             </div>
           </div>
-          <h4 class="learnMoreSub">Education </h4>
           <div className="columns">
             <div className="column is-6 infoBox">
               <h3>Bot Sentinel - Dashboard </h3>
